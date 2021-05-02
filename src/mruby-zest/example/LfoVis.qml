@@ -156,7 +156,7 @@ Widget {
         when :random
 	        Proc.new {|phase| 2*rand - 1 } #TODO: proper RAN LFO display
         else
-            Proc.new {|x| Math.sin(2*3.14*x) }
+            Proc.new {|x| Math.cos(2*Math::PI*x) }
         end
 
         # root point
@@ -164,11 +164,9 @@ Widget {
         # func points
         resolution = 128
         (0..resolution).each do |i|
-            x = 0.2+0.8*i*1.0/resolution
-            phase = i*1.0/resolution + lfo_vis.phase
-            phase -= 1 if phase > 1
-
-            y = shape.call(phase)
+            x = 0.2+0.8*i.to_f/resolution.to_f
+            phase = i.to_f/resolution.to_f + lfo_vis.phase-0.5
+            y = shape.call(phase % 1.0)
             p << y
             p << x
         end
@@ -303,7 +301,16 @@ Widget {
             padfactor = 10
             bb = Draw::indent(Rect.new(0,0,w,h), padfactor, padfactor)
 
-            Draw::WaveForm::overlay_lfo(vg, bb, pts)
+            scale = case root.get_view_pos(:subsubview)
+                when :amplitude
+                    1.0
+                when :frequency
+                    1.0/2048.0
+                when :filter
+                    0.25
+                end
+
+            Draw::WaveForm::overlay_lfo(vg, bb, pts, scale)
         }
     }
 }
