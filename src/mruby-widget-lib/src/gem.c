@@ -495,12 +495,10 @@ mrb_remote_setf(mrb_state *mrb, mrb_value self)
     mrb_assert(data && data->br);
 
     mrb_value path;
-    mrb_float value = 0;
+    mrb_float value;
     mrb_get_args(mrb, "of", &path, &value);
-
     float next = value;
-    //printf("[INFO] seti<%s> = %f\n", mrb_string_value_ptr(mrb, path), next);
-    br_set_value_float(data->br, mrb_string_value_ptr(mrb, path), next);
+    br_set_value_float(data->br, mrb_string_value_ptr(mrb, path),next);
     return self;
 }
 
