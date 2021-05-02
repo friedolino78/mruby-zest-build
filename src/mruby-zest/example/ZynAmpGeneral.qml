@@ -12,13 +12,13 @@ Group {
         }
         Knob { extern: box.extern+"PAmpVelocityScaleFunction"}
         Knob { extern: box.extern+"PPanning"}
-        Knob { extern: box.extern+"PPunchStretch"}
-
     }
     ParModuleRow {
         id: bot
-        Knob     {extern: box.extern+"PPunchStrength"}
+        Knob     {label: "punch"; extern: box.extern+"PPunchStrength"}
         Knob     {extern: box.extern+"PPunchTime"}
+        Knob { label: "strch"; extern: box.extern+"PPunchStretch"}
+
         Col {
             ToggleButton   {label: "stereo"; extern: box.extern+"PStereo"}
             ToggleButton   {label: "rnd grp"; extern: box.extern+"Hrandgrouping"}
