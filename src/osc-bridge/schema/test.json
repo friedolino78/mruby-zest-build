@@ -657,7 +657,7 @@
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.0001f,41.0f],
-        "default"  : "0.0f"
+        "default"  : "0.0001f"
 
     },
     {
@@ -845,7 +845,7 @@
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.0001f,41.0f],
-        "default"  : "0.0f"
+        "default"  : "0.0001f"
 
     },
     {
@@ -1033,7 +1033,7 @@
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.0001f,41.0f],
-        "default"  : "0.0f"
+        "default"  : "0.0001f"
 
     },
     {
@@ -5027,7 +5027,7 @@
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.0001f,41.0f],
-        "default"  : "0.0f"
+        "default"  : "0.0001f"
 
     },
     {
@@ -5215,7 +5215,7 @@
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.0001f,41.0f],
-        "default"  : "0.0f"
+        "default"  : "0.0001f"
 
     },
     {
@@ -5403,7 +5403,7 @@
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.0001f,41.0f],
-        "default"  : "0.0f"
+        "default"  : "0.0001f"
 
     },
     {
@@ -5591,7 +5591,7 @@
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.0001f,41.0f],
-        "default"  : "0.0f"
+        "default"  : "0.0001f"
 
     },
     {
@@ -5779,7 +5779,7 @@
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.0001f,41.0f],
-        "default"  : "0.0f"
+        "default"  : "0.0001f"
 
     },
     {
@@ -7812,7 +7812,7 @@
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.0001f,41.0f],
-        "default"  : "0.0f"
+        "default"  : "0.0001f"
 
     },
     {
@@ -8000,7 +8000,7 @@
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.0001f,41.0f],
-        "default"  : "0.0f"
+        "default"  : "0.0001f"
 
     },
     {
@@ -8188,7 +8188,7 @@
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.0001f,41.0f],
-        "default"  : "0.0f"
+        "default"  : "0.0001f"
 
     },
     {
@@ -9215,7 +9215,7 @@
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.0001f,41.0f],
-        "default"  : "0.0f"
+        "default"  : "0.0001f"
 
     },
     {
@@ -9403,7 +9403,7 @@
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.0001f,41.0f],
-        "default"  : "0.0f"
+        "default"  : "0.0001f"
 
     },
     {
@@ -9591,7 +9591,7 @@
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.0001f,41.0f],
-        "default"  : "0.0f"
+        "default"  : "0.0001f"
 
     },
     {
@@ -9779,7 +9779,7 @@
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.0001f,41.0f],
-        "default"  : "0.0f"
+        "default"  : "0.0001f"
 
     },
     {
