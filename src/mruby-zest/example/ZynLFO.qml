@@ -12,7 +12,7 @@ Group {
         Col {
             ParModuleRow {
                 id: top
-                Knob { id: freq; type: :float; extern: box.extern+"freq" }
+                Knob { type: :float; extern: box.extern+"freq" }
                 Knob { extern: box.extern+"Pintensity"}
                 Knob { extern: box.extern+"Pcutoff"}
                 Knob { extern: box.extern+"Pstartphase"}
