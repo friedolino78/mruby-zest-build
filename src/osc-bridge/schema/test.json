@@ -570,18 +570,6 @@
 
     },
     {
-        "path"     : "/part[0,15]/kit[0,15]/padpars/FreqEnvelope/Penvdt[0,39]",
-        "name"     : "Penvdt#40",
-        "tooltip"  : "Envelope Delay Times",
-        "type"     : "i"
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/padpars/FreqEnvelope/Penvval[0,39]",
-        "name"     : "Penvval#40",
-        "tooltip"  : "Envelope Values",
-        "type"     : "i"
-    },
-    {
         "path"     : "/part[0,15]/kit[0,15]/padpars/FreqEnvelope/Penvstretch",
         "shortname": "stretch",
         "name"     : "Penvstretch",
@@ -719,6 +707,28 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/padpars/FreqEnvelope/Penvdt[0,39]",
+        "name"     : "Penvdt#40",
+        "tooltip"  : "Envelope Delay Times",
+        "type"     : "i"
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/padpars/FreqEnvelope/envdt[0,39]",
+        "name"     : "envdt#40",
+        "tooltip"  : "Envelope Delay Times (ms)",
+        "type"     : "f",
+        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/padpars/FreqEnvelope/Penvval[0,39]",
+        "name"     : "Penvval#40",
+        "tooltip"  : "Envelope Values",
+        "type"     : "i",
+        "default"  : "[64 64 ...]"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/padpars/AmpEnvelope/Pfreemode",
         "name"     : "Pfreemode",
         "tooltip"  : "Complex Envelope Definitions",
@@ -734,18 +744,6 @@
         "range"    : [0,127],
         "default"  : "2"
 
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/padpars/AmpEnvelope/Penvdt[0,39]",
-        "name"     : "Penvdt#40",
-        "tooltip"  : "Envelope Delay Times",
-        "type"     : "i"
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/padpars/AmpEnvelope/Penvval[0,39]",
-        "name"     : "Penvval#40",
-        "tooltip"  : "Envelope Values",
-        "type"     : "i"
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/padpars/AmpEnvelope/Penvstretch",
@@ -885,6 +883,28 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/padpars/AmpEnvelope/Penvdt[0,39]",
+        "name"     : "Penvdt#40",
+        "tooltip"  : "Envelope Delay Times",
+        "type"     : "i"
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/padpars/AmpEnvelope/envdt[0,39]",
+        "name"     : "envdt#40",
+        "tooltip"  : "Envelope Delay Times (ms)",
+        "type"     : "f",
+        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/padpars/AmpEnvelope/Penvval[0,39]",
+        "name"     : "Penvval#40",
+        "tooltip"  : "Envelope Values",
+        "type"     : "i",
+        "default"  : "[64 64 ...]"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/padpars/FilterEnvelope/Pfreemode",
         "name"     : "Pfreemode",
         "tooltip"  : "Complex Envelope Definitions",
@@ -900,18 +920,6 @@
         "range"    : [0,127],
         "default"  : "2"
 
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/padpars/FilterEnvelope/Penvdt[0,39]",
-        "name"     : "Penvdt#40",
-        "tooltip"  : "Envelope Delay Times",
-        "type"     : "i"
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/padpars/FilterEnvelope/Penvval[0,39]",
-        "name"     : "Penvval#40",
-        "tooltip"  : "Envelope Values",
-        "type"     : "i"
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/padpars/FilterEnvelope/Penvstretch",
@@ -1048,6 +1056,28 @@
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/padpars/FilterEnvelope/Penvdt[0,39]",
+        "name"     : "Penvdt#40",
+        "tooltip"  : "Envelope Delay Times",
+        "type"     : "i"
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/padpars/FilterEnvelope/envdt[0,39]",
+        "name"     : "envdt#40",
+        "tooltip"  : "Envelope Delay Times (ms)",
+        "type"     : "f",
+        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/padpars/FilterEnvelope/Penvval[0,39]",
+        "name"     : "Penvval#40",
+        "tooltip"  : "Envelope Values",
+        "type"     : "i",
+        "default"  : "[64 64 ...]"
 
     },
     {
@@ -1265,6 +1295,15 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/padpars/GlobalFilter/vowel_seq[0,7]",
+        "shortname": "vowel",
+        "name"     : "vowel_seq#8",
+        "tooltip"  : "Vowel number of this sequence position",
+        "type"     : "i",
+        "default"  : "[0 1 2 3 4 5 0 1]"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/padpars/GlobalFilter/type-svf",
         "shortname": "type",
         "name"     : "type-svf",
@@ -1337,7 +1376,9 @@
         "name"     : "freq",
         "tooltip"  : "Formant frequency",
         "type"     : "i",
-        "range"    : [0,127]
+        "range"    : [0,127],
+        "default"  : "128"
+
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/padpars/GlobalFilter/Pvowels[0,5]/Pformants[0,11]/amp",
@@ -2436,7 +2477,7 @@
         "tooltip"  : "Amplitude multiplier parameter",
         "type"     : "i",
         "range"    : [0,127],
-        "default"  : "60"
+        "default"  : "64"
 
     },
     {
@@ -2452,8 +2493,10 @@
         "path"     : "/part[0,15]/kit[0,15]/padpars/Php.onehalf",
         "shortname": "side",
         "name"     : "Php.onehalf",
-        "tooltip"  : ":default",
+        "tooltip"  : "Harmonic cutoff model",
         "type"     : "i",
+        "default"  : "Full"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -4212,6 +4255,103 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqSeq/freq",
+        "shortname": "freq",
+        "name"     : "freq",
+        "tooltip"  : "step frequency",
+        "units"    : "Hz",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.1f,10.0f],
+        "default"  : "2.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqSeq/intensity",
+        "shortname": "depth",
+        "name"     : "intensity",
+        "tooltip"  : "Intensity of SEQ",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0,2.0],
+        "default"  : "0.0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqSeq/cutoff",
+        "shortname": "lp",
+        "name"     : "cutoff",
+        "tooltip"  : "cutoff of lp-filter for output\n 40.0=off",
+        "units"    : "Hz",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,40.0f],
+        "default"  : "40.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqSeq/delay",
+        "shortname": "delay",
+        "name"     : "delay",
+        "tooltip"  : "Delay before SEQ start\n0..4 second delay",
+        "units"    : "S",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0,4.0],
+        "default"  : "0.0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqSeq/continous",
+        "shortname": "c",
+        "name"     : "continous",
+        "tooltip"  : "Enable for global phase syncronization",
+        "type"     : "t",
+        "default"  : "false"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqSeq/numerator",
+        "shortname": "num",
+        "name"     : "numerator",
+        "tooltip"  : "Numerator of ratio to bpm\n0 = OFF",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqSeq/denominator",
+        "shortname": "dem",
+        "name"     : "denominator",
+        "tooltip"  : "Denominator of ratio to bpm",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "4"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqSeq/steps",
+        "shortname": "steps",
+        "name"     : "steps",
+        "tooltip"  : "number of steps",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "8"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqSeq/sequence[0,127]",
+        "name"     : "sequence#128",
+        "tooltip"  : "sequence values",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [-1.0f,1.0f]
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpLfo/freq",
         "shortname": "freq",
         "name"     : "freq",
@@ -4392,6 +4532,103 @@
         "range"    : [0,127],
         "default"  : "4"
 
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpSeq/freq",
+        "shortname": "freq",
+        "name"     : "freq",
+        "tooltip"  : "step frequency",
+        "units"    : "Hz",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.1f,10.0f],
+        "default"  : "2.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpSeq/intensity",
+        "shortname": "depth",
+        "name"     : "intensity",
+        "tooltip"  : "Intensity of SEQ",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0,2.0],
+        "default"  : "0.0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpSeq/cutoff",
+        "shortname": "lp",
+        "name"     : "cutoff",
+        "tooltip"  : "cutoff of lp-filter for output\n 40.0=off",
+        "units"    : "Hz",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,40.0f],
+        "default"  : "40.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpSeq/delay",
+        "shortname": "delay",
+        "name"     : "delay",
+        "tooltip"  : "Delay before SEQ start\n0..4 second delay",
+        "units"    : "S",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0,4.0],
+        "default"  : "0.0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpSeq/continous",
+        "shortname": "c",
+        "name"     : "continous",
+        "tooltip"  : "Enable for global phase syncronization",
+        "type"     : "t",
+        "default"  : "false"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpSeq/numerator",
+        "shortname": "num",
+        "name"     : "numerator",
+        "tooltip"  : "Numerator of ratio to bpm\n0 = OFF",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpSeq/denominator",
+        "shortname": "dem",
+        "name"     : "denominator",
+        "tooltip"  : "Denominator of ratio to bpm",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "4"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpSeq/steps",
+        "shortname": "steps",
+        "name"     : "steps",
+        "tooltip"  : "number of steps",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "8"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpSeq/sequence[0,127]",
+        "name"     : "sequence#128",
+        "tooltip"  : "sequence values",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [-1.0f,1.0f]
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterLfo/freq",
@@ -4576,6 +4813,103 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterSeq/freq",
+        "shortname": "freq",
+        "name"     : "freq",
+        "tooltip"  : "step frequency",
+        "units"    : "Hz",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.1f,10.0f],
+        "default"  : "2.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterSeq/intensity",
+        "shortname": "depth",
+        "name"     : "intensity",
+        "tooltip"  : "Intensity of SEQ",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0,2.0],
+        "default"  : "0.0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterSeq/cutoff",
+        "shortname": "lp",
+        "name"     : "cutoff",
+        "tooltip"  : "cutoff of lp-filter for output\n 40.0=off",
+        "units"    : "Hz",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,40.0f],
+        "default"  : "40.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterSeq/delay",
+        "shortname": "delay",
+        "name"     : "delay",
+        "tooltip"  : "Delay before SEQ start\n0..4 second delay",
+        "units"    : "S",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0,4.0],
+        "default"  : "0.0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterSeq/continous",
+        "shortname": "c",
+        "name"     : "continous",
+        "tooltip"  : "Enable for global phase syncronization",
+        "type"     : "t",
+        "default"  : "false"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterSeq/numerator",
+        "shortname": "num",
+        "name"     : "numerator",
+        "tooltip"  : "Numerator of ratio to bpm\n0 = OFF",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterSeq/denominator",
+        "shortname": "dem",
+        "name"     : "denominator",
+        "tooltip"  : "Denominator of ratio to bpm",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "4"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterSeq/steps",
+        "shortname": "steps",
+        "name"     : "steps",
+        "tooltip"  : "number of steps",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "8"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterSeq/sequence[0,127]",
+        "name"     : "sequence#128",
+        "tooltip"  : "sequence values",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [-1.0f,1.0f]
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqEnvelope/Pfreemode",
         "name"     : "Pfreemode",
         "tooltip"  : "Complex Envelope Definitions",
@@ -4591,18 +4925,6 @@
         "range"    : [0,127],
         "default"  : "2"
 
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqEnvelope/Penvdt[0,39]",
-        "name"     : "Penvdt#40",
-        "tooltip"  : "Envelope Delay Times",
-        "type"     : "i"
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqEnvelope/Penvval[0,39]",
-        "name"     : "Penvval#40",
-        "tooltip"  : "Envelope Values",
-        "type"     : "i"
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqEnvelope/Penvstretch",
@@ -4742,6 +5064,28 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqEnvelope/Penvdt[0,39]",
+        "name"     : "Penvdt#40",
+        "tooltip"  : "Envelope Delay Times",
+        "type"     : "i"
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqEnvelope/envdt[0,39]",
+        "name"     : "envdt#40",
+        "tooltip"  : "Envelope Delay Times (ms)",
+        "type"     : "f",
+        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqEnvelope/Penvval[0,39]",
+        "name"     : "Penvval#40",
+        "tooltip"  : "Envelope Values",
+        "type"     : "i",
+        "default"  : "[64 64 ...]"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpEnvelope/Pfreemode",
         "name"     : "Pfreemode",
         "tooltip"  : "Complex Envelope Definitions",
@@ -4757,18 +5101,6 @@
         "range"    : [0,127],
         "default"  : "2"
 
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpEnvelope/Penvdt[0,39]",
-        "name"     : "Penvdt#40",
-        "tooltip"  : "Envelope Delay Times",
-        "type"     : "i"
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpEnvelope/Penvval[0,39]",
-        "name"     : "Penvval#40",
-        "tooltip"  : "Envelope Values",
-        "type"     : "i"
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpEnvelope/Penvstretch",
@@ -4908,6 +5240,28 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpEnvelope/Penvdt[0,39]",
+        "name"     : "Penvdt#40",
+        "tooltip"  : "Envelope Delay Times",
+        "type"     : "i"
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpEnvelope/envdt[0,39]",
+        "name"     : "envdt#40",
+        "tooltip"  : "Envelope Delay Times (ms)",
+        "type"     : "f",
+        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpEnvelope/Penvval[0,39]",
+        "name"     : "Penvval#40",
+        "tooltip"  : "Envelope Values",
+        "type"     : "i",
+        "default"  : "[64 64 ...]"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterEnvelope/Pfreemode",
         "name"     : "Pfreemode",
         "tooltip"  : "Complex Envelope Definitions",
@@ -4923,18 +5277,6 @@
         "range"    : [0,127],
         "default"  : "2"
 
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterEnvelope/Penvdt[0,39]",
-        "name"     : "Penvdt#40",
-        "tooltip"  : "Envelope Delay Times",
-        "type"     : "i"
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterEnvelope/Penvval[0,39]",
-        "name"     : "Penvval#40",
-        "tooltip"  : "Envelope Values",
-        "type"     : "i"
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterEnvelope/Penvstretch",
@@ -5074,6 +5416,28 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterEnvelope/Penvdt[0,39]",
+        "name"     : "Penvdt#40",
+        "tooltip"  : "Envelope Delay Times",
+        "type"     : "i"
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterEnvelope/envdt[0,39]",
+        "name"     : "envdt#40",
+        "tooltip"  : "Envelope Delay Times (ms)",
+        "type"     : "f",
+        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterEnvelope/Penvval[0,39]",
+        "name"     : "Penvval#40",
+        "tooltip"  : "Envelope Values",
+        "type"     : "i",
+        "default"  : "[64 64 ...]"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMFreqEnvelope/Pfreemode",
         "name"     : "Pfreemode",
         "tooltip"  : "Complex Envelope Definitions",
@@ -5089,18 +5453,6 @@
         "range"    : [0,127],
         "default"  : "2"
 
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMFreqEnvelope/Penvdt[0,39]",
-        "name"     : "Penvdt#40",
-        "tooltip"  : "Envelope Delay Times",
-        "type"     : "i"
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMFreqEnvelope/Penvval[0,39]",
-        "name"     : "Penvval#40",
-        "tooltip"  : "Envelope Values",
-        "type"     : "i"
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMFreqEnvelope/Penvstretch",
@@ -5240,6 +5592,28 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMFreqEnvelope/Penvdt[0,39]",
+        "name"     : "Penvdt#40",
+        "tooltip"  : "Envelope Delay Times",
+        "type"     : "i"
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMFreqEnvelope/envdt[0,39]",
+        "name"     : "envdt#40",
+        "tooltip"  : "Envelope Delay Times (ms)",
+        "type"     : "f",
+        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMFreqEnvelope/Penvval[0,39]",
+        "name"     : "Penvval#40",
+        "tooltip"  : "Envelope Values",
+        "type"     : "i",
+        "default"  : "[64 64 ...]"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMAmpEnvelope/Pfreemode",
         "name"     : "Pfreemode",
         "tooltip"  : "Complex Envelope Definitions",
@@ -5255,18 +5629,6 @@
         "range"    : [0,127],
         "default"  : "2"
 
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMAmpEnvelope/Penvdt[0,39]",
-        "name"     : "Penvdt#40",
-        "tooltip"  : "Envelope Delay Times",
-        "type"     : "i"
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMAmpEnvelope/Penvval[0,39]",
-        "name"     : "Penvval#40",
-        "tooltip"  : "Envelope Values",
-        "type"     : "i"
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMAmpEnvelope/Penvstretch",
@@ -5403,6 +5765,28 @@
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMAmpEnvelope/Penvdt[0,39]",
+        "name"     : "Penvdt#40",
+        "tooltip"  : "Envelope Delay Times",
+        "type"     : "i"
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMAmpEnvelope/envdt[0,39]",
+        "name"     : "envdt#40",
+        "tooltip"  : "Envelope Delay Times (ms)",
+        "type"     : "f",
+        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMAmpEnvelope/Penvval[0,39]",
+        "name"     : "Penvval#40",
+        "tooltip"  : "Envelope Values",
+        "type"     : "i",
+        "default"  : "[64 64 ...]"
 
     },
     {
@@ -5620,6 +6004,15 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/VoiceFilter/vowel_seq[0,7]",
+        "shortname": "vowel",
+        "name"     : "vowel_seq#8",
+        "tooltip"  : "Vowel number of this sequence position",
+        "type"     : "i",
+        "default"  : "[0 1 2 3 4 5 0 1]"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/VoiceFilter/type-svf",
         "shortname": "type",
         "name"     : "type-svf",
@@ -5692,7 +6085,9 @@
         "name"     : "freq",
         "tooltip"  : "Formant frequency",
         "type"     : "i",
-        "range"    : [0,127]
+        "range"    : [0,127],
+        "default"  : "128"
+
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/VoiceFilter/Pvowels[0,5]/Pformants[0,11]/amp",
@@ -6016,6 +6411,15 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/PFreqSeqEnabled",
+        "shortname": "enable",
+        "name"     : "PFreqSeqEnabled",
+        "tooltip"  : "Frequency Sequencer Enable",
+        "type"     : "t",
+        "default"  : "false"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/PPanning",
         "shortname": "pan.",
         "name"     : "PPanning",
@@ -6084,6 +6488,15 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/PAmpSeqEnabled",
+        "shortname": "enable",
+        "name"     : "PAmpSeqEnabled",
+        "tooltip"  : "Amplitude Sequencer Enable",
+        "type"     : "t",
+        "default"  : "false"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/PFilterEnabled",
         "shortname": "enable",
         "name"     : "PFilterEnabled",
@@ -6106,6 +6519,15 @@
         "shortname": "enable",
         "name"     : "PFilterLfoEnabled",
         "tooltip"  : "Filter LFO Enable",
+        "type"     : "t",
+        "default"  : "false"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/PFilterSeqEnabled",
+        "shortname": "enable",
+        "name"     : "PFilterSeqEnabled",
+        "tooltip"  : "Filter Sequencer Enable",
         "type"     : "t",
         "default"  : "false"
 
@@ -6233,7 +6655,6 @@
         "name"     : "PFMDetuneType",
         "tooltip"  : "Modulator Detune Magnitude",
         "type"     : "i",
-        "range"    : [0,127],
         "default"  : "L35cents"
 ,
         "options"  : [
@@ -6559,6 +6980,103 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqSeq/freq",
+        "shortname": "freq",
+        "name"     : "freq",
+        "tooltip"  : "step frequency",
+        "units"    : "Hz",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.1f,10.0f],
+        "default"  : "2.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqSeq/intensity",
+        "shortname": "depth",
+        "name"     : "intensity",
+        "tooltip"  : "Intensity of SEQ",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0,2.0],
+        "default"  : "0.0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqSeq/cutoff",
+        "shortname": "lp",
+        "name"     : "cutoff",
+        "tooltip"  : "cutoff of lp-filter for output\n 40.0=off",
+        "units"    : "Hz",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,40.0f],
+        "default"  : "40.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqSeq/delay",
+        "shortname": "delay",
+        "name"     : "delay",
+        "tooltip"  : "Delay before SEQ start\n0..4 second delay",
+        "units"    : "S",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0,4.0],
+        "default"  : "0.0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqSeq/continous",
+        "shortname": "c",
+        "name"     : "continous",
+        "tooltip"  : "Enable for global phase syncronization",
+        "type"     : "t",
+        "default"  : "false"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqSeq/numerator",
+        "shortname": "num",
+        "name"     : "numerator",
+        "tooltip"  : "Numerator of ratio to bpm\n0 = OFF",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqSeq/denominator",
+        "shortname": "dem",
+        "name"     : "denominator",
+        "tooltip"  : "Denominator of ratio to bpm",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "4"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqSeq/steps",
+        "shortname": "steps",
+        "name"     : "steps",
+        "tooltip"  : "number of steps",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "8"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqSeq/sequence[0,127]",
+        "name"     : "sequence#128",
+        "tooltip"  : "sequence values",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [-1.0f,1.0f]
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpLfo/freq",
         "shortname": "freq",
         "name"     : "freq",
@@ -6739,6 +7257,103 @@
         "range"    : [0,127],
         "default"  : "4"
 
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpSeq/freq",
+        "shortname": "freq",
+        "name"     : "freq",
+        "tooltip"  : "step frequency",
+        "units"    : "Hz",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.1f,10.0f],
+        "default"  : "2.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpSeq/intensity",
+        "shortname": "depth",
+        "name"     : "intensity",
+        "tooltip"  : "Intensity of SEQ",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0,2.0],
+        "default"  : "0.0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpSeq/cutoff",
+        "shortname": "lp",
+        "name"     : "cutoff",
+        "tooltip"  : "cutoff of lp-filter for output\n 40.0=off",
+        "units"    : "Hz",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,40.0f],
+        "default"  : "40.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpSeq/delay",
+        "shortname": "delay",
+        "name"     : "delay",
+        "tooltip"  : "Delay before SEQ start\n0..4 second delay",
+        "units"    : "S",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0,4.0],
+        "default"  : "0.0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpSeq/continous",
+        "shortname": "c",
+        "name"     : "continous",
+        "tooltip"  : "Enable for global phase syncronization",
+        "type"     : "t",
+        "default"  : "false"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpSeq/numerator",
+        "shortname": "num",
+        "name"     : "numerator",
+        "tooltip"  : "Numerator of ratio to bpm\n0 = OFF",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpSeq/denominator",
+        "shortname": "dem",
+        "name"     : "denominator",
+        "tooltip"  : "Denominator of ratio to bpm",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "4"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpSeq/steps",
+        "shortname": "steps",
+        "name"     : "steps",
+        "tooltip"  : "number of steps",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "8"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpSeq/sequence[0,127]",
+        "name"     : "sequence#128",
+        "tooltip"  : "sequence values",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [-1.0f,1.0f]
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterLfo/freq",
@@ -6923,6 +7538,103 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterSeq/freq",
+        "shortname": "freq",
+        "name"     : "freq",
+        "tooltip"  : "step frequency",
+        "units"    : "Hz",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.1f,10.0f],
+        "default"  : "2.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterSeq/intensity",
+        "shortname": "depth",
+        "name"     : "intensity",
+        "tooltip"  : "Intensity of SEQ",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0,2.0],
+        "default"  : "0.0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterSeq/cutoff",
+        "shortname": "lp",
+        "name"     : "cutoff",
+        "tooltip"  : "cutoff of lp-filter for output\n 40.0=off",
+        "units"    : "Hz",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,40.0f],
+        "default"  : "40.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterSeq/delay",
+        "shortname": "delay",
+        "name"     : "delay",
+        "tooltip"  : "Delay before SEQ start\n0..4 second delay",
+        "units"    : "S",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0,4.0],
+        "default"  : "0.0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterSeq/continous",
+        "shortname": "c",
+        "name"     : "continous",
+        "tooltip"  : "Enable for global phase syncronization",
+        "type"     : "t",
+        "default"  : "false"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterSeq/numerator",
+        "shortname": "num",
+        "name"     : "numerator",
+        "tooltip"  : "Numerator of ratio to bpm\n0 = OFF",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "0"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterSeq/denominator",
+        "shortname": "dem",
+        "name"     : "denominator",
+        "tooltip"  : "Denominator of ratio to bpm",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "4"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterSeq/steps",
+        "shortname": "steps",
+        "name"     : "steps",
+        "tooltip"  : "number of steps",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "8"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterSeq/sequence[0,127]",
+        "name"     : "sequence#128",
+        "tooltip"  : "sequence values",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [-1.0f,1.0f]
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqEnvelope/Pfreemode",
         "name"     : "Pfreemode",
         "tooltip"  : "Complex Envelope Definitions",
@@ -6938,18 +7650,6 @@
         "range"    : [0,127],
         "default"  : "2"
 
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqEnvelope/Penvdt[0,39]",
-        "name"     : "Penvdt#40",
-        "tooltip"  : "Envelope Delay Times",
-        "type"     : "i"
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqEnvelope/Penvval[0,39]",
-        "name"     : "Penvval#40",
-        "tooltip"  : "Envelope Values",
-        "type"     : "i"
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqEnvelope/Penvstretch",
@@ -7089,6 +7789,28 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqEnvelope/Penvdt[0,39]",
+        "name"     : "Penvdt#40",
+        "tooltip"  : "Envelope Delay Times",
+        "type"     : "i"
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqEnvelope/envdt[0,39]",
+        "name"     : "envdt#40",
+        "tooltip"  : "Envelope Delay Times (ms)",
+        "type"     : "f",
+        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqEnvelope/Penvval[0,39]",
+        "name"     : "Penvval#40",
+        "tooltip"  : "Envelope Values",
+        "type"     : "i",
+        "default"  : "[64 64 ...]"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpEnvelope/Pfreemode",
         "name"     : "Pfreemode",
         "tooltip"  : "Complex Envelope Definitions",
@@ -7104,18 +7826,6 @@
         "range"    : [0,127],
         "default"  : "2"
 
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpEnvelope/Penvdt[0,39]",
-        "name"     : "Penvdt#40",
-        "tooltip"  : "Envelope Delay Times",
-        "type"     : "i"
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpEnvelope/Penvval[0,39]",
-        "name"     : "Penvval#40",
-        "tooltip"  : "Envelope Values",
-        "type"     : "i"
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpEnvelope/Penvstretch",
@@ -7255,6 +7965,28 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpEnvelope/Penvdt[0,39]",
+        "name"     : "Penvdt#40",
+        "tooltip"  : "Envelope Delay Times",
+        "type"     : "i"
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpEnvelope/envdt[0,39]",
+        "name"     : "envdt#40",
+        "tooltip"  : "Envelope Delay Times (ms)",
+        "type"     : "f",
+        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpEnvelope/Penvval[0,39]",
+        "name"     : "Penvval#40",
+        "tooltip"  : "Envelope Values",
+        "type"     : "i",
+        "default"  : "[64 64 ...]"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterEnvelope/Pfreemode",
         "name"     : "Pfreemode",
         "tooltip"  : "Complex Envelope Definitions",
@@ -7270,18 +8002,6 @@
         "range"    : [0,127],
         "default"  : "2"
 
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterEnvelope/Penvdt[0,39]",
-        "name"     : "Penvdt#40",
-        "tooltip"  : "Envelope Delay Times",
-        "type"     : "i"
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterEnvelope/Penvval[0,39]",
-        "name"     : "Penvval#40",
-        "tooltip"  : "Envelope Values",
-        "type"     : "i"
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterEnvelope/Penvstretch",
@@ -7418,6 +8138,28 @@
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterEnvelope/Penvdt[0,39]",
+        "name"     : "Penvdt#40",
+        "tooltip"  : "Envelope Delay Times",
+        "type"     : "i"
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterEnvelope/envdt[0,39]",
+        "name"     : "envdt#40",
+        "tooltip"  : "Envelope Delay Times (ms)",
+        "type"     : "f",
+        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterEnvelope/Penvval[0,39]",
+        "name"     : "Penvval#40",
+        "tooltip"  : "Envelope Values",
+        "type"     : "i",
+        "default"  : "[64 64 ...]"
 
     },
     {
@@ -7635,6 +8377,15 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/GlobalFilter/vowel_seq[0,7]",
+        "shortname": "vowel",
+        "name"     : "vowel_seq#8",
+        "tooltip"  : "Vowel number of this sequence position",
+        "type"     : "i",
+        "default"  : "[0 1 2 3 4 5 0 1]"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/GlobalFilter/type-svf",
         "shortname": "type",
         "name"     : "type-svf",
@@ -7707,7 +8458,9 @@
         "name"     : "freq",
         "tooltip"  : "Formant frequency",
         "type"     : "i",
-        "range"    : [0,127]
+        "range"    : [0,127],
+        "default"  : "128"
+
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/GlobalFilter/Pvowels[0,5]/Pformants[0,11]/amp",
@@ -7940,7 +8693,7 @@
         "scale"    : "linear",
         "type"     : "f",
         "range"    : [-60.0f,20.0f],
-        "default"  : "0"
+        "default"  : "0.f"
 
     },
     {
@@ -8112,9 +8865,11 @@
         "path"     : "/part[0,15]/kit[0,15]/subpars/POvertoneSpread.type",
         "shortname": "spread type",
         "name"     : "POvertoneSpread.type",
-        "tooltip"  : ":default",
+        "tooltip"  : "Spread of harmonic frequencies",
         "type"     : "i",
         "range"    : [0,7],
+        "default"  : "Harmonic"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -8275,18 +9030,6 @@
 
     },
     {
-        "path"     : "/part[0,15]/kit[0,15]/subpars/AmpEnvelope/Penvdt[0,39]",
-        "name"     : "Penvdt#40",
-        "tooltip"  : "Envelope Delay Times",
-        "type"     : "i"
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/subpars/AmpEnvelope/Penvval[0,39]",
-        "name"     : "Penvval#40",
-        "tooltip"  : "Envelope Values",
-        "type"     : "i"
-    },
-    {
         "path"     : "/part[0,15]/kit[0,15]/subpars/AmpEnvelope/Penvstretch",
         "shortname": "stretch",
         "name"     : "Penvstretch",
@@ -8424,6 +9167,28 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/AmpEnvelope/Penvdt[0,39]",
+        "name"     : "Penvdt#40",
+        "tooltip"  : "Envelope Delay Times",
+        "type"     : "i"
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/AmpEnvelope/envdt[0,39]",
+        "name"     : "envdt#40",
+        "tooltip"  : "Envelope Delay Times (ms)",
+        "type"     : "f",
+        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/AmpEnvelope/Penvval[0,39]",
+        "name"     : "Penvval#40",
+        "tooltip"  : "Envelope Values",
+        "type"     : "i",
+        "default"  : "[64 64 ...]"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/subpars/FreqEnvelope/Pfreemode",
         "name"     : "Pfreemode",
         "tooltip"  : "Complex Envelope Definitions",
@@ -8439,18 +9204,6 @@
         "range"    : [0,127],
         "default"  : "2"
 
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/subpars/FreqEnvelope/Penvdt[0,39]",
-        "name"     : "Penvdt#40",
-        "tooltip"  : "Envelope Delay Times",
-        "type"     : "i"
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/subpars/FreqEnvelope/Penvval[0,39]",
-        "name"     : "Penvval#40",
-        "tooltip"  : "Envelope Values",
-        "type"     : "i"
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/subpars/FreqEnvelope/Penvstretch",
@@ -8590,6 +9343,28 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/FreqEnvelope/Penvdt[0,39]",
+        "name"     : "Penvdt#40",
+        "tooltip"  : "Envelope Delay Times",
+        "type"     : "i"
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/FreqEnvelope/envdt[0,39]",
+        "name"     : "envdt#40",
+        "tooltip"  : "Envelope Delay Times (ms)",
+        "type"     : "f",
+        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/FreqEnvelope/Penvval[0,39]",
+        "name"     : "Penvval#40",
+        "tooltip"  : "Envelope Values",
+        "type"     : "i",
+        "default"  : "[64 64 ...]"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/subpars/BandWidthEnvelope/Pfreemode",
         "name"     : "Pfreemode",
         "tooltip"  : "Complex Envelope Definitions",
@@ -8605,18 +9380,6 @@
         "range"    : [0,127],
         "default"  : "2"
 
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/subpars/BandWidthEnvelope/Penvdt[0,39]",
-        "name"     : "Penvdt#40",
-        "tooltip"  : "Envelope Delay Times",
-        "type"     : "i"
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/subpars/BandWidthEnvelope/Penvval[0,39]",
-        "name"     : "Penvval#40",
-        "tooltip"  : "Envelope Values",
-        "type"     : "i"
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/subpars/BandWidthEnvelope/Penvstretch",
@@ -8756,6 +9519,28 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/BandWidthEnvelope/Penvdt[0,39]",
+        "name"     : "Penvdt#40",
+        "tooltip"  : "Envelope Delay Times",
+        "type"     : "i"
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/BandWidthEnvelope/envdt[0,39]",
+        "name"     : "envdt#40",
+        "tooltip"  : "Envelope Delay Times (ms)",
+        "type"     : "f",
+        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/BandWidthEnvelope/Penvval[0,39]",
+        "name"     : "Penvval#40",
+        "tooltip"  : "Envelope Values",
+        "type"     : "i",
+        "default"  : "[64 64 ...]"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/subpars/GlobalFilterEnvelope/Pfreemode",
         "name"     : "Pfreemode",
         "tooltip"  : "Complex Envelope Definitions",
@@ -8771,18 +9556,6 @@
         "range"    : [0,127],
         "default"  : "2"
 
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/subpars/GlobalFilterEnvelope/Penvdt[0,39]",
-        "name"     : "Penvdt#40",
-        "tooltip"  : "Envelope Delay Times",
-        "type"     : "i"
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/subpars/GlobalFilterEnvelope/Penvval[0,39]",
-        "name"     : "Penvval#40",
-        "tooltip"  : "Envelope Values",
-        "type"     : "i"
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/subpars/GlobalFilterEnvelope/Penvstretch",
@@ -8919,6 +9692,28 @@
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/GlobalFilterEnvelope/Penvdt[0,39]",
+        "name"     : "Penvdt#40",
+        "tooltip"  : "Envelope Delay Times",
+        "type"     : "i"
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/GlobalFilterEnvelope/envdt[0,39]",
+        "name"     : "envdt#40",
+        "tooltip"  : "Envelope Delay Times (ms)",
+        "type"     : "f",
+        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/GlobalFilterEnvelope/Penvval[0,39]",
+        "name"     : "Penvval#40",
+        "tooltip"  : "Envelope Values",
+        "type"     : "i",
+        "default"  : "[64 64 ...]"
 
     },
     {
@@ -9136,6 +9931,15 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/GlobalFilter/vowel_seq[0,7]",
+        "shortname": "vowel",
+        "name"     : "vowel_seq#8",
+        "tooltip"  : "Vowel number of this sequence position",
+        "type"     : "i",
+        "default"  : "[0 1 2 3 4 5 0 1]"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/subpars/GlobalFilter/type-svf",
         "shortname": "type",
         "name"     : "type-svf",
@@ -9208,7 +10012,9 @@
         "name"     : "freq",
         "tooltip"  : "Formant frequency",
         "type"     : "i",
-        "range"    : [0,127]
+        "range"    : [0,127],
+        "default"  : "128"
+
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/subpars/GlobalFilter/Pvowels[0,5]/Pformants[0,11]/amp",
@@ -9297,9 +10103,11 @@
     {
         "path"     : "/part[0,15]/kit[0,15]/Pmaxkey",
         "name"     : "Pmaxkey",
-        "tooltip"  : ":default",
+        "tooltip"  : "Kit item max key",
         "type"     : "i",
-        "range"    : [0,127]
+        "range"    : [0,127],
+        "default"  : "127"
+
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/Padenabled",
@@ -9355,6 +10163,14 @@
         "tooltip"  : "Kit User Specified Label",
         "type"     : "s",
         "default"  : "\"\""
+
+    },
+    {
+        "path"     : "/part[0,15]/partefx[0,2]/preset",
+        "name"     : "preset",
+        "tooltip"  : "Effect Preset Selector",
+        "type"     : "i",
+        "default"  : "0"
 
     },
     {
@@ -9572,6 +10388,15 @@
 
     },
     {
+        "path"     : "/part[0,15]/partefx[0,2]/filterpars/vowel_seq[0,7]",
+        "shortname": "vowel",
+        "name"     : "vowel_seq#8",
+        "tooltip"  : "Vowel number of this sequence position",
+        "type"     : "i",
+        "default"  : "[0 1 2 3 4 5 0 1]"
+
+    },
+    {
         "path"     : "/part[0,15]/partefx[0,2]/filterpars/type-svf",
         "shortname": "type",
         "name"     : "type-svf",
@@ -9644,7 +10469,9 @@
         "name"     : "freq",
         "tooltip"  : "Formant frequency",
         "type"     : "i",
-        "range"    : [0,127]
+        "range"    : [0,127],
+        "default"  : "128"
+
     },
     {
         "path"     : "/part[0,15]/partefx[0,2]/filterpars/Pvowels[0,5]/Pformants[0,11]/amp",
@@ -9691,14 +10518,6 @@
         "scale"    : "linear",
         "type"     : "i",
         "range"    : [0,127]
-    },
-    {
-        "path"     : "/part[0,15]/partefx[0,2]/preset",
-        "name"     : "preset",
-        "tooltip"  : "Effect Preset Selector",
-        "type"     : "i",
-        "default"  : "0"
-
     },
     {
         "path"     : "/part[0,15]/partefx[0,2]/numerator",
@@ -9777,6 +10596,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -9804,7 +10625,7 @@
         "scale"    : "linear",
         "type"     : "i",
         "range"    : [0,127],
-        "default"  : "127"
+        "default"  : "63"
 
     },
     {
@@ -9920,6 +10741,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -10092,6 +10915,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -10324,7 +11149,7 @@
         "scale"    : "linear",
         "type"     : "i",
         "range"    : [0,127],
-        "default"  : "110"
+        "default"  : "55"
 
     },
     {
@@ -10433,6 +11258,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -10551,7 +11378,7 @@
         "scale"    : "linear",
         "type"     : "i",
         "range"    : [0,127],
-        "default"  : "50"
+        "default"  : "67"
 
     },
     {
@@ -10650,6 +11477,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -10879,6 +11708,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -11011,12 +11842,10 @@
         "path"     : "/part[0,15]/partefx[0,2]/Reverb/Plohidamp",
         "shortname": "damp",
         "name"     : "Plohidamp",
-        "tooltip"  : ":default 0",
+        "tooltip"  : "Dampening",
         "scale"    : "linear",
         "type"     : "i",
-        "range"    : [0,127],
-        "default"  : "0"
-
+        "range"    : [0,127]
     },
     {
         "path"     : "/part[0,15]/partefx[0,2]/Reverb/Ptype",
@@ -11068,6 +11897,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -11098,9 +11929,7 @@
         "tooltip"  : "amount of effect",
         "scale"    : "linear",
         "type"     : "i",
-        "range"    : [0,127],
-        "default"  : "127"
-
+        "range"    : [0,127]
     },
     {
         "path"     : "/part[0,15]/partefx[0,2]/Sympathetic/Ppanning",
@@ -11206,9 +12035,7 @@
         "tooltip"  : "Number of Strings",
         "scale"    : "linear",
         "type"     : "i",
-        "range"    : [0,76],
-        "default"  : "0"
-
+        "range"    : [0,76]
     },
     {
         "path"     : "/part[0,15]/partefx[0,2]/Sympathetic/Pbasenote",
@@ -11217,9 +12044,7 @@
         "tooltip"  : "Midi Note of Lowest String",
         "scale"    : "linear",
         "type"     : "i",
-        "range"    : [0,127],
-        "default"  : "57"
-
+        "range"    : [0,127]
     },
     {
         "path"     : "/part[0,15]/partefx[0,2]/Sympathetic/freqs[0,87]",
@@ -11808,6 +12633,14 @@
         ]
     },
     {
+        "path"     : "/sysefx[0,3]/preset",
+        "name"     : "preset",
+        "tooltip"  : "Effect Preset Selector",
+        "type"     : "i",
+        "default"  : "0"
+
+    },
+    {
         "path"     : "/sysefx[0,3]/filterpars/Pcategory",
         "shortname": "class",
         "name"     : "Pcategory",
@@ -12022,6 +12855,15 @@
 
     },
     {
+        "path"     : "/sysefx[0,3]/filterpars/vowel_seq[0,7]",
+        "shortname": "vowel",
+        "name"     : "vowel_seq#8",
+        "tooltip"  : "Vowel number of this sequence position",
+        "type"     : "i",
+        "default"  : "[0 1 2 3 4 5 0 1]"
+
+    },
+    {
         "path"     : "/sysefx[0,3]/filterpars/type-svf",
         "shortname": "type",
         "name"     : "type-svf",
@@ -12094,7 +12936,9 @@
         "name"     : "freq",
         "tooltip"  : "Formant frequency",
         "type"     : "i",
-        "range"    : [0,127]
+        "range"    : [0,127],
+        "default"  : "128"
+
     },
     {
         "path"     : "/sysefx[0,3]/filterpars/Pvowels[0,5]/Pformants[0,11]/amp",
@@ -12141,14 +12985,6 @@
         "scale"    : "linear",
         "type"     : "i",
         "range"    : [0,127]
-    },
-    {
-        "path"     : "/sysefx[0,3]/preset",
-        "name"     : "preset",
-        "tooltip"  : "Effect Preset Selector",
-        "type"     : "i",
-        "default"  : "0"
-
     },
     {
         "path"     : "/sysefx[0,3]/numerator",
@@ -12227,6 +13063,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -12254,7 +13092,7 @@
         "scale"    : "linear",
         "type"     : "i",
         "range"    : [0,127],
-        "default"  : "127"
+        "default"  : "63"
 
     },
     {
@@ -12370,6 +13208,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -12542,6 +13382,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -12774,7 +13616,7 @@
         "scale"    : "linear",
         "type"     : "i",
         "range"    : [0,127],
-        "default"  : "110"
+        "default"  : "55"
 
     },
     {
@@ -12883,6 +13725,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -13001,7 +13845,7 @@
         "scale"    : "linear",
         "type"     : "i",
         "range"    : [0,127],
-        "default"  : "50"
+        "default"  : "67"
 
     },
     {
@@ -13100,6 +13944,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -13329,6 +14175,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -13461,12 +14309,10 @@
         "path"     : "/sysefx[0,3]/Reverb/Plohidamp",
         "shortname": "damp",
         "name"     : "Plohidamp",
-        "tooltip"  : ":default 0",
+        "tooltip"  : "Dampening",
         "scale"    : "linear",
         "type"     : "i",
-        "range"    : [0,127],
-        "default"  : "0"
-
+        "range"    : [0,127]
     },
     {
         "path"     : "/sysefx[0,3]/Reverb/Ptype",
@@ -13518,6 +14364,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -13548,9 +14396,7 @@
         "tooltip"  : "amount of effect",
         "scale"    : "linear",
         "type"     : "i",
-        "range"    : [0,127],
-        "default"  : "127"
-
+        "range"    : [0,127]
     },
     {
         "path"     : "/sysefx[0,3]/Sympathetic/Ppanning",
@@ -13656,9 +14502,7 @@
         "tooltip"  : "Number of Strings",
         "scale"    : "linear",
         "type"     : "i",
-        "range"    : [0,76],
-        "default"  : "0"
-
+        "range"    : [0,76]
     },
     {
         "path"     : "/sysefx[0,3]/Sympathetic/Pbasenote",
@@ -13667,9 +14511,7 @@
         "tooltip"  : "Midi Note of Lowest String",
         "scale"    : "linear",
         "type"     : "i",
-        "range"    : [0,127],
-        "default"  : "57"
-
+        "range"    : [0,127]
     },
     {
         "path"     : "/sysefx[0,3]/Sympathetic/freqs[0,87]",
@@ -13678,6 +14520,14 @@
         "scale"    : "linear",
         "type"     : "f",
         "range"    : [27.50f,4186.01f]
+    },
+    {
+        "path"     : "/insefx[0,7]/preset",
+        "name"     : "preset",
+        "tooltip"  : "Effect Preset Selector",
+        "type"     : "i",
+        "default"  : "0"
+
     },
     {
         "path"     : "/insefx[0,7]/filterpars/Pcategory",
@@ -13894,6 +14744,15 @@
 
     },
     {
+        "path"     : "/insefx[0,7]/filterpars/vowel_seq[0,7]",
+        "shortname": "vowel",
+        "name"     : "vowel_seq#8",
+        "tooltip"  : "Vowel number of this sequence position",
+        "type"     : "i",
+        "default"  : "[0 1 2 3 4 5 0 1]"
+
+    },
+    {
         "path"     : "/insefx[0,7]/filterpars/type-svf",
         "shortname": "type",
         "name"     : "type-svf",
@@ -13966,7 +14825,9 @@
         "name"     : "freq",
         "tooltip"  : "Formant frequency",
         "type"     : "i",
-        "range"    : [0,127]
+        "range"    : [0,127],
+        "default"  : "128"
+
     },
     {
         "path"     : "/insefx[0,7]/filterpars/Pvowels[0,5]/Pformants[0,11]/amp",
@@ -14013,14 +14874,6 @@
         "scale"    : "linear",
         "type"     : "i",
         "range"    : [0,127]
-    },
-    {
-        "path"     : "/insefx[0,7]/preset",
-        "name"     : "preset",
-        "tooltip"  : "Effect Preset Selector",
-        "type"     : "i",
-        "default"  : "0"
-
     },
     {
         "path"     : "/insefx[0,7]/numerator",
@@ -14099,6 +14952,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -14126,7 +14981,7 @@
         "scale"    : "linear",
         "type"     : "i",
         "range"    : [0,127],
-        "default"  : "127"
+        "default"  : "63"
 
     },
     {
@@ -14242,6 +15097,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -14414,6 +15271,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -14646,7 +15505,7 @@
         "scale"    : "linear",
         "type"     : "i",
         "range"    : [0,127],
-        "default"  : "110"
+        "default"  : "55"
 
     },
     {
@@ -14755,6 +15614,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -14873,7 +15734,7 @@
         "scale"    : "linear",
         "type"     : "i",
         "range"    : [0,127],
-        "default"  : "50"
+        "default"  : "67"
 
     },
     {
@@ -14972,6 +15833,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -15201,6 +16064,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -15333,12 +16198,10 @@
         "path"     : "/insefx[0,7]/Reverb/Plohidamp",
         "shortname": "damp",
         "name"     : "Plohidamp",
-        "tooltip"  : ":default 0",
+        "tooltip"  : "Dampening",
         "scale"    : "linear",
         "type"     : "i",
-        "range"    : [0,127],
-        "default"  : "0"
-
+        "range"    : [0,127]
     },
     {
         "path"     : "/insefx[0,7]/Reverb/Ptype",
@@ -15390,6 +16253,8 @@
         "name"     : "preset",
         "tooltip"  : "Instrument Presets",
         "type"     : "i",
+        "default"  : "0"
+,
         "options"  : [
         {
             "id"     : 0,
@@ -15420,9 +16285,7 @@
         "tooltip"  : "amount of effect",
         "scale"    : "linear",
         "type"     : "i",
-        "range"    : [0,127],
-        "default"  : "127"
-
+        "range"    : [0,127]
     },
     {
         "path"     : "/insefx[0,7]/Sympathetic/Ppanning",
@@ -15528,9 +16391,7 @@
         "tooltip"  : "Number of Strings",
         "scale"    : "linear",
         "type"     : "i",
-        "range"    : [0,76],
-        "default"  : "0"
-
+        "range"    : [0,76]
     },
     {
         "path"     : "/insefx[0,7]/Sympathetic/Pbasenote",
@@ -15539,9 +16400,7 @@
         "tooltip"  : "Midi Note of Lowest String",
         "scale"    : "linear",
         "type"     : "i",
-        "range"    : [0,127],
-        "default"  : "57"
-
+        "range"    : [0,127]
     },
     {
         "path"     : "/insefx[0,7]/Sympathetic/freqs[0,87]",
@@ -15661,9 +16520,7 @@
         "path"     : "/microtonal/Pmapping[0,127]",
         "name"     : "Pmapping#128",
         "tooltip"  : "Mapping of keys",
-        "type"     : "i",
-        "default"  : "[0 1 ...]"
-
+        "type"     : "i"
     },
     {
         "path"     : "/microtonal/Pglobalfinedetune",
@@ -16068,7 +16925,7 @@
         "scale"    : "linear",
         "type"     : "f",
         "range"    : [-40.0f,13.3333f],
-        "default"  : "-6.66667f"
+        "default"  : "-6.67 (-0x1.aaaaacp+2)"
 
     },
     {
@@ -16113,7 +16970,7 @@
         "scale"    : "linear",
         "type"     : "f",
         "range"    : [0,1],
-        "default"  : "0.5"
+        "default"  : "0.f"
 
     },
     {
@@ -16143,7 +17000,7 @@
         "name"     : "active",
         "tooltip"  : "If Slot is enabled",
         "type"     : "t",
-        "default"  : "F"
+        "default"  : "false"
 
     },
     {
@@ -16181,7 +17038,7 @@
         "scale"    : "linear",
         "type"     : "f",
         "range"    : [-50,50],
-        "default"  : "0"
+        "default"  : "0.0"
 
     },
     {
@@ -16193,7 +17050,7 @@
         "scale"    : "linear",
         "type"     : "f",
         "range"    : [-200,200],
-        "default"  : "100"
+        "default"  : "100.0"
 
     },
     {
