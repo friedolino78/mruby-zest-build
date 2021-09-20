@@ -21,7 +21,7 @@ Widget {
         extern: sym.extern
         copyable: true
     }
-
+    
     ParModuleRow {
         Selector {
             extern: sym.extern + "Sympathetic/preset"
@@ -48,6 +48,7 @@ Widget {
         Draw::GradBox(vg, Rect.new(0, 0, w, h))
     }
 
+    
     function layout(l, selfBox) {
         Draw::Layout::vfill(l, selfBox, children, [0.15,0.85])
     }

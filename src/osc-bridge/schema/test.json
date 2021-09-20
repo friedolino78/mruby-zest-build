@@ -583,12 +583,34 @@
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/padpars/FreqEnvelope/Penvstretch",
-        "shortname": "stretch",
+        "shortname": "f.str",
         "name"     : "Penvstretch",
         "tooltip"  : "Stretch with respect to frequency",
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/padpars/FreqEnvelope/vStretch",
+        "shortname": "v.str",
+        "name"     : "vStretch",
+        "tooltip"  : "Stretch with respect to velocity",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,1.0f],
+        "default"  : "0.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/padpars/FreqEnvelope/vStretchFunction",
+        "shortname": "v.sense",
+        "name"     : "vStretchFunction",
+        "tooltip"  : "Velocity Stretch Function Shape",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,127.0f],
+        "default"  : "64.0f"
 
     },
     {
@@ -749,12 +771,34 @@
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/padpars/AmpEnvelope/Penvstretch",
-        "shortname": "stretch",
+        "shortname": "f.str",
         "name"     : "Penvstretch",
         "tooltip"  : "Stretch with respect to frequency",
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/padpars/AmpEnvelope/vStretch",
+        "shortname": "v.str",
+        "name"     : "vStretch",
+        "tooltip"  : "Stretch with respect to velocity",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,1.0f],
+        "default"  : "0.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/padpars/AmpEnvelope/vStretchFunction",
+        "shortname": "v.sense",
+        "name"     : "vStretchFunction",
+        "tooltip"  : "Velocity Stretch Function Shape",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,127.0f],
+        "default"  : "64.0f"
 
     },
     {
@@ -915,12 +959,34 @@
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/padpars/FilterEnvelope/Penvstretch",
-        "shortname": "stretch",
+        "shortname": "f.str",
         "name"     : "Penvstretch",
         "tooltip"  : "Stretch with respect to frequency",
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/padpars/FilterEnvelope/vStretch",
+        "shortname": "v.str",
+        "name"     : "vStretch",
+        "tooltip"  : "Stretch with respect to velocity",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,1.0f],
+        "default"  : "0.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/padpars/FilterEnvelope/vStretchFunction",
+        "shortname": "v.sense",
+        "name"     : "vStretchFunction",
+        "tooltip"  : "Velocity Stretch Function Shape",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,127.0f],
+        "default"  : "64.0f"
 
     },
     {
@@ -4887,12 +4953,34 @@
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqEnvelope/Penvstretch",
-        "shortname": "stretch",
+        "shortname": "f.str",
         "name"     : "Penvstretch",
         "tooltip"  : "Stretch with respect to frequency",
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqEnvelope/vStretch",
+        "shortname": "v.str",
+        "name"     : "vStretch",
+        "tooltip"  : "Stretch with respect to velocity",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,1.0f],
+        "default"  : "0.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqEnvelope/vStretchFunction",
+        "shortname": "v.sense",
+        "name"     : "vStretchFunction",
+        "tooltip"  : "Velocity Stretch Function Shape",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,127.0f],
+        "default"  : "64.0f"
 
     },
     {
@@ -5053,12 +5141,34 @@
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpEnvelope/Penvstretch",
-        "shortname": "stretch",
+        "shortname": "f.str",
         "name"     : "Penvstretch",
         "tooltip"  : "Stretch with respect to frequency",
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpEnvelope/vStretch",
+        "shortname": "v.str",
+        "name"     : "vStretch",
+        "tooltip"  : "Stretch with respect to velocity",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,1.0f],
+        "default"  : "0.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpEnvelope/vStretchFunction",
+        "shortname": "v.sense",
+        "name"     : "vStretchFunction",
+        "tooltip"  : "Velocity Stretch Function Shape",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,127.0f],
+        "default"  : "64.0f"
 
     },
     {
@@ -5219,12 +5329,34 @@
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterEnvelope/Penvstretch",
-        "shortname": "stretch",
+        "shortname": "f.str",
         "name"     : "Penvstretch",
         "tooltip"  : "Stretch with respect to frequency",
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterEnvelope/vStretch",
+        "shortname": "v.str",
+        "name"     : "vStretch",
+        "tooltip"  : "Stretch with respect to velocity",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,1.0f],
+        "default"  : "0.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterEnvelope/vStretchFunction",
+        "shortname": "v.sense",
+        "name"     : "vStretchFunction",
+        "tooltip"  : "Velocity Stretch Function Shape",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,127.0f],
+        "default"  : "64.0f"
 
     },
     {
@@ -5385,12 +5517,34 @@
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMFreqEnvelope/Penvstretch",
-        "shortname": "stretch",
+        "shortname": "f.str",
         "name"     : "Penvstretch",
         "tooltip"  : "Stretch with respect to frequency",
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMFreqEnvelope/vStretch",
+        "shortname": "v.str",
+        "name"     : "vStretch",
+        "tooltip"  : "Stretch with respect to velocity",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,1.0f],
+        "default"  : "0.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMFreqEnvelope/vStretchFunction",
+        "shortname": "v.sense",
+        "name"     : "vStretchFunction",
+        "tooltip"  : "Velocity Stretch Function Shape",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,127.0f],
+        "default"  : "64.0f"
 
     },
     {
@@ -5551,12 +5705,34 @@
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMAmpEnvelope/Penvstretch",
-        "shortname": "stretch",
+        "shortname": "f.str",
         "name"     : "Penvstretch",
         "tooltip"  : "Stretch with respect to frequency",
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMAmpEnvelope/vStretch",
+        "shortname": "v.str",
+        "name"     : "vStretch",
+        "tooltip"  : "Stretch with respect to velocity",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,1.0f],
+        "default"  : "0.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FMAmpEnvelope/vStretchFunction",
+        "shortname": "v.sense",
+        "name"     : "vStretchFunction",
+        "tooltip"  : "Velocity Stretch Function Shape",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,127.0f],
+        "default"  : "64.0f"
 
     },
     {
@@ -7562,12 +7738,34 @@
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqEnvelope/Penvstretch",
-        "shortname": "stretch",
+        "shortname": "f.str",
         "name"     : "Penvstretch",
         "tooltip"  : "Stretch with respect to frequency",
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqEnvelope/vStretch",
+        "shortname": "v.str",
+        "name"     : "vStretch",
+        "tooltip"  : "Stretch with respect to velocity",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,1.0f],
+        "default"  : "0.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqEnvelope/vStretchFunction",
+        "shortname": "v.sense",
+        "name"     : "vStretchFunction",
+        "tooltip"  : "Velocity Stretch Function Shape",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,127.0f],
+        "default"  : "64.0f"
 
     },
     {
@@ -7728,12 +7926,34 @@
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpEnvelope/Penvstretch",
-        "shortname": "stretch",
+        "shortname": "f.str",
         "name"     : "Penvstretch",
         "tooltip"  : "Stretch with respect to frequency",
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpEnvelope/vStretch",
+        "shortname": "v.str",
+        "name"     : "vStretch",
+        "tooltip"  : "Stretch with respect to velocity",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,1.0f],
+        "default"  : "0.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpEnvelope/vStretchFunction",
+        "shortname": "v.sense",
+        "name"     : "vStretchFunction",
+        "tooltip"  : "Velocity Stretch Function Shape",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,127.0f],
+        "default"  : "64.0f"
 
     },
     {
@@ -7894,12 +8114,34 @@
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterEnvelope/Penvstretch",
-        "shortname": "stretch",
+        "shortname": "f.str",
         "name"     : "Penvstretch",
         "tooltip"  : "Stretch with respect to frequency",
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterEnvelope/vStretch",
+        "shortname": "v.str",
+        "name"     : "vStretch",
+        "tooltip"  : "Stretch with respect to velocity",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,1.0f],
+        "default"  : "0.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterEnvelope/vStretchFunction",
+        "shortname": "v.sense",
+        "name"     : "vStretchFunction",
+        "tooltip"  : "Velocity Stretch Function Shape",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,127.0f],
+        "default"  : "64.0f"
 
     },
     {
@@ -8899,12 +9141,34 @@
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/subpars/AmpEnvelope/Penvstretch",
-        "shortname": "stretch",
+        "shortname": "f.str",
         "name"     : "Penvstretch",
         "tooltip"  : "Stretch with respect to frequency",
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/AmpEnvelope/vStretch",
+        "shortname": "v.str",
+        "name"     : "vStretch",
+        "tooltip"  : "Stretch with respect to velocity",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,1.0f],
+        "default"  : "0.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/AmpEnvelope/vStretchFunction",
+        "shortname": "v.sense",
+        "name"     : "vStretchFunction",
+        "tooltip"  : "Velocity Stretch Function Shape",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,127.0f],
+        "default"  : "64.0f"
 
     },
     {
@@ -9065,12 +9329,34 @@
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/subpars/FreqEnvelope/Penvstretch",
-        "shortname": "stretch",
+        "shortname": "f.str",
         "name"     : "Penvstretch",
         "tooltip"  : "Stretch with respect to frequency",
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/FreqEnvelope/vStretch",
+        "shortname": "v.str",
+        "name"     : "vStretch",
+        "tooltip"  : "Stretch with respect to velocity",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,1.0f],
+        "default"  : "0.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/FreqEnvelope/vStretchFunction",
+        "shortname": "v.sense",
+        "name"     : "vStretchFunction",
+        "tooltip"  : "Velocity Stretch Function Shape",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,127.0f],
+        "default"  : "64.0f"
 
     },
     {
@@ -9231,12 +9517,34 @@
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/subpars/BandWidthEnvelope/Penvstretch",
-        "shortname": "stretch",
+        "shortname": "f.str",
         "name"     : "Penvstretch",
         "tooltip"  : "Stretch with respect to frequency",
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/BandWidthEnvelope/vStretch",
+        "shortname": "v.str",
+        "name"     : "vStretch",
+        "tooltip"  : "Stretch with respect to velocity",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,1.0f],
+        "default"  : "0.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/BandWidthEnvelope/vStretchFunction",
+        "shortname": "v.sense",
+        "name"     : "vStretchFunction",
+        "tooltip"  : "Velocity Stretch Function Shape",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,127.0f],
+        "default"  : "64.0f"
 
     },
     {
@@ -9397,12 +9705,34 @@
     },
     {
         "path"     : "/part[0,15]/kit[0,15]/subpars/GlobalFilterEnvelope/Penvstretch",
-        "shortname": "stretch",
+        "shortname": "f.str",
         "name"     : "Penvstretch",
         "tooltip"  : "Stretch with respect to frequency",
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/GlobalFilterEnvelope/vStretch",
+        "shortname": "v.str",
+        "name"     : "vStretch",
+        "tooltip"  : "Stretch with respect to velocity",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,1.0f],
+        "default"  : "0.0f"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/GlobalFilterEnvelope/vStretchFunction",
+        "shortname": "v.sense",
+        "name"     : "vStretchFunction",
+        "tooltip"  : "Velocity Stretch Function Shape",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [0.0f,127.0f],
+        "default"  : "64.0f"
 
     },
     {
@@ -15898,6 +16228,153 @@
         "range"    : [0,127],
         "default"  : "20"
 
+    },
+    {
+        "path"     : "/insefx[0,7]/Sympathetic/Pvolume",
+        "shortname": "amt",
+        "name"     : "Pvolume",
+        "tooltip"  : "amount of effect",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "127"
+
+    },
+    {
+        "path"     : "/insefx[0,7]/Sympathetic/Ppanning",
+        "shortname": "pan",
+        "name"     : "Ppanning",
+        "tooltip"  : "panning",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127]
+    },
+    {
+        "path"     : "/insefx[0,7]/Sympathetic/Pq",
+        "shortname": "q",
+        "name"     : "Pq",
+        "tooltip"  : "Resonance",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "65"
+
+    },
+    {
+        "path"     : "/insefx[0,7]/Sympathetic/Pdrive",
+        "shortname": "drive",
+        "name"     : "Pdrive",
+        "tooltip"  : "Input Amplification",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "65"
+
+    },
+    {
+        "path"     : "/insefx[0,7]/Sympathetic/Plevel",
+        "shortname": "output",
+        "name"     : "Plevel",
+        "tooltip"  : "Output Amplification",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "65"
+
+    },
+    {
+        "path"     : "/insefx[0,7]/Sympathetic/Punison_frequency_spread",
+        "shortname": "detune",
+        "name"     : "Punison_frequency_spread",
+        "tooltip"  : "Unison String Detune",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "30"
+
+    },
+    {
+        "path"     : "/insefx[0,7]/Sympathetic/Pnegate",
+        "shortname": "neg",
+        "name"     : "Pnegate",
+        "tooltip"  : "Negate Signal",
+        "type"     : "t",
+        "default"  : "false"
+
+    },
+    {
+        "path"     : "/insefx[0,7]/Sympathetic/Plpf",
+        "shortname": "lpf",
+        "name"     : "Plpf",
+        "tooltip"  : "Low Pass Cutoff",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "127"
+
+    },
+    {
+        "path"     : "/insefx[0,7]/Sympathetic/Phpf",
+        "shortname": "hpf",
+        "name"     : "Phpf",
+        "tooltip"  : "High Pass Cutoff",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "0"
+
+    },
+    {
+        "path"     : "/insefx[0,7]/Sympathetic/Punison_size",
+        "shortname": "unison",
+        "name"     : "Punison_size",
+        "tooltip"  : "Number of Unison Strings",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "1"
+
+    },
+    {
+        "path"     : "/insefx[0,7]/Sympathetic/Pstrings",
+        "shortname": "strings",
+        "name"     : "Pstrings",
+        "tooltip"  : "Number of Strings",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "12"
+
+    },
+    {
+        "path"     : "/insefx[0,7]/Sympathetic/Pbasenote",
+        "shortname": "base",
+        "name"     : "Pbasenote",
+        "tooltip"  : "Midi Note of Lowest String",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "57"
+
+    },
+    {
+        "path"     : "/insefx[0,7]/Sympathetic/Pcrossgain",
+        "shortname": "cross",
+        "name"     : "Pcrossgain",
+        "tooltip"  : "Crossgain between neigbouring notes",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "0"
+
+    },
+    {
+        "path"     : "/insefx[0,7]/Sympathetic/freqs[0,87]",
+        "name"     : "freqs#88",
+        "tooltip"  : "String Frequencies",
+        "scale"    : "linear",
+        "type"     : "f",
+        "range"    : [27.50f,4186.01f]
     },
     {
         "path"     : "/insefx[0,7]/Sympathetic/preset",
