@@ -173,7 +173,7 @@ Widget {
     }
     
     Widget {
-        id: seq_run_view
+        id: run_view
         //animation layer
         layer: 1
 
@@ -206,21 +206,21 @@ Widget {
         }
 
         onExtern: {
-            return if seq_run_view.extern.nil?
+            return if run_view.extern.nil?
 
-            seq_run_view.valueRef = OSC::RemoteParam.new($remote, seq_run_view.extern)
-            seq_run_view.valueRef.set_watch
-            seq_run_view.valueRef.callback = Proc.new {|x|
-                 if(seq_run_view.runtime_points != x)
-                    seq_run_view.runtime_points = x;
-                    seq_run_view.damage_self
+            run_view.valueRef = OSC::RemoteParam.new($remote, run_view.extern)
+            run_view.valueRef.set_watch
+            run_view.valueRef.callback = Proc.new {|x|
+                 if(run_view.runtime_points != x)
+                    run_view.runtime_points = x;
+                    run_view.damage_self
                 end
             }
         }
 
         function animate() {
-            return if seq_run_view.valueRef.nil?
-            seq_run_view.valueRef.watch seq_run_view.extern
+            return if run_view.valueRef.nil?
+            run_view.valueRef.watch
         }
 
         function draw(vg)

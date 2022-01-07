@@ -42,7 +42,6 @@ Group {
                     box.damage_self
                 }
             }
-            }
             NumEntry {extern: box.extern + "denominator"; label: "Denominator"}
         }
     }
