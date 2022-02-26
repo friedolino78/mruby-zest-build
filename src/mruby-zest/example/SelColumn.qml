@@ -109,6 +109,7 @@ Widget {
 
     function onSetup(old=nil)
     {
+
         return if children.length > 10
         scroll.layer = self.layer
         (self.nrows).times do |x|
@@ -152,6 +153,7 @@ Widget {
                 ch.bg = Theme::BankEven if x%2 == 0
                 ch.bg = Theme::BankOdd if x%2 == 1
             end
+
             Qml::add_child(self, ch)
 
             if(!$scrollvalue.nil?)
