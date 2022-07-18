@@ -4294,12 +4294,12 @@
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FreqSeq/cutoff",
         "shortname": "lp",
         "name"     : "cutoff",
-        "tooltip"  : "cutoff of lp-filter for output\n 0.0=off",
+        "tooltip"  : "cutoff of lp-filter for output\n 40.0=off",
         "units"    : "Hz",
         "scale"    : "linear",
         "type"     : "f",
-        "range"    : [0.0f,20.0f],
-        "default"  : "0.0f"
+        "range"    : [0.0f,40.0f],
+        "default"  : "40.0f"
 
     },
     {
@@ -4573,12 +4573,12 @@
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/AmpSeq/cutoff",
         "shortname": "lp",
         "name"     : "cutoff",
-        "tooltip"  : "cutoff of lp-filter for output\n 0.0=off",
+        "tooltip"  : "cutoff of lp-filter for output\n 40.0=off",
         "units"    : "Hz",
         "scale"    : "linear",
         "type"     : "f",
-        "range"    : [0.0f,20.0f],
-        "default"  : "0.0f"
+        "range"    : [0.0f,40.0f],
+        "default"  : "40.0f"
 
     },
     {
@@ -4852,12 +4852,12 @@
         "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/FilterSeq/cutoff",
         "shortname": "lp",
         "name"     : "cutoff",
-        "tooltip"  : "cutoff of lp-filter for output\n 0.0=off",
+        "tooltip"  : "cutoff of lp-filter for output\n 40.0=off",
         "units"    : "Hz",
         "scale"    : "linear",
         "type"     : "f",
-        "range"    : [0.0f,20.0f],
-        "default"  : "0.0f"
+        "range"    : [0.0f,40.0f],
+        "default"  : "40.0f"
 
     },
     {
@@ -7079,12 +7079,12 @@
         "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FreqSeq/cutoff",
         "shortname": "lp",
         "name"     : "cutoff",
-        "tooltip"  : "cutoff of lp-filter for output\n 0.0=off",
+        "tooltip"  : "cutoff of lp-filter for output\n 40.0=off",
         "units"    : "Hz",
         "scale"    : "linear",
         "type"     : "f",
-        "range"    : [0.0f,20.0f],
-        "default"  : "0.0f"
+        "range"    : [0.0f,40.0f],
+        "default"  : "40.0f"
 
     },
     {
@@ -7358,12 +7358,12 @@
         "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/AmpSeq/cutoff",
         "shortname": "lp",
         "name"     : "cutoff",
-        "tooltip"  : "cutoff of lp-filter for output\n 0.0=off",
+        "tooltip"  : "cutoff of lp-filter for output\n 40.0=off",
         "units"    : "Hz",
         "scale"    : "linear",
         "type"     : "f",
-        "range"    : [0.0f,20.0f],
-        "default"  : "0.0f"
+        "range"    : [0.0f,40.0f],
+        "default"  : "40.0f"
 
     },
     {
@@ -7637,12 +7637,12 @@
         "path"     : "/part[0,15]/kit[0,15]/adpars/GlobalPar/FilterSeq/cutoff",
         "shortname": "lp",
         "name"     : "cutoff",
-        "tooltip"  : "cutoff of lp-filter for output\n 0.0=off",
+        "tooltip"  : "cutoff of lp-filter for output\n 40.0=off",
         "units"    : "Hz",
         "scale"    : "linear",
         "type"     : "f",
-        "range"    : [0.0f,20.0f],
-        "default"  : "0.0f"
+        "range"    : [0.0f,40.0f],
+        "default"  : "40.0f"
 
     },
     {
@@ -16247,7 +16247,9 @@
         "tooltip"  : "panning",
         "scale"    : "linear",
         "type"     : "i",
-        "range"    : [0,127]
+        "range"    : [0,127],
+        "default"  : "64"
+
     },
     {
         "path"     : "/insefx[0,7]/Sympathetic/Pq",
@@ -16331,7 +16333,7 @@
         "tooltip"  : "Number of Unison Strings",
         "scale"    : "linear",
         "type"     : "i",
-        "range"    : [0,127],
+        "range"    : [1,7],
         "default"  : "1"
 
     },
@@ -16343,7 +16345,7 @@
         "scale"    : "linear",
         "type"     : "i",
         "range"    : [0,127],
-        "default"  : "12"
+        "default"  : "0"
 
     },
     {
