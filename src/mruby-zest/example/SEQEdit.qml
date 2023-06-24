@@ -220,7 +220,7 @@ Widget {
 
         function animate() {
             return if seq_run_view.valueRef.nil?
-            seq_run_view.valueRef.watch seq_run_view.extern
+            seq_run_view.valueRef.watch
         }
 
         function draw(vg)
