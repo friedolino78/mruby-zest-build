@@ -10061,6 +10061,10 @@
         {
             "id"     : 9,
             "value"  : "Sympathetic"
+        },
+        {
+            "id"     : 10,
+            "value"  : "Reverse"
         }
         ]
     },
@@ -11528,6 +11532,97 @@
         "range"    : [27.50f,4186.01f]
     },
     {
+        "path"     : "/part[0,15]/partefx[0,2]/Reverse/Pvolume",
+        "shortname": "amt",
+        "name"     : "Pvolume",
+        "tooltip"  : "amount of effect",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127]
+    },
+    {
+        "path"     : "/part[0,15]/partefx[0,2]/Reverse/Ppanning",
+        "shortname": "pan",
+        "name"     : "Ppanning",
+        "tooltip"  : "panning",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/partefx[0,2]/Reverse/Pdelay",
+        "shortname": "delay",
+        "name"     : "Pdelay",
+        "tooltip"  : "Length of Reversed Segment",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "31"
+
+    },
+    {
+        "path"     : "/part[0,15]/partefx[0,2]/Reverse/Pstereo",
+        "shortname": "stereo",
+        "name"     : "Pstereo",
+        "tooltip"  : "Stereo",
+        "type"     : "t"
+    },
+    {
+        "path"     : "/part[0,15]/partefx[0,2]/Reverse/Pphase",
+        "shortname": "phase",
+        "name"     : "Pphase",
+        "tooltip"  : "Phase offset for Reversed Segment",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "64"
+
+    },
+    {
+        "path"     : "/part[0,15]/partefx[0,2]/Reverse/Pcrossfade",
+        "shortname": "fade",
+        "name"     : "Pcrossfade",
+        "tooltip"  : "Cross Fade Time between Reversed Segments 1/100s",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "16"
+
+    },
+    {
+        "path"     : "/part[0,15]/partefx[0,2]/Reverse/Psyncmode",
+        "shortname": "sync",
+        "name"     : "Psyncmode",
+        "tooltip"  : "Sync Mode",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "options"  : [
+        {
+            "id"     : 0,
+            "value"  : "AUTO"
+        },
+        {
+            "id"     : 1,
+            "value"  : "MIDI"
+        },
+        {
+            "id"     : 2,
+            "value"  : "HOST"
+        },
+        {
+            "id"     : 3,
+            "value"  : "NOTEON"
+        },
+        {
+            "id"     : 4,
+            "value"  : "NOTEONOFF"
+        }
+        ]
+    },
+    {
         "path"     : "/part[0,15]/ctl/panning.depth",
         "shortname": "pan.d",
         "name"     : "panning.depth",
@@ -12540,6 +12635,10 @@
         {
             "id"     : 9,
             "value"  : "Sympathetic"
+        },
+        {
+            "id"     : 10,
+            "value"  : "Reverse"
         }
         ]
     },
@@ -14007,6 +14106,97 @@
         "range"    : [27.50f,4186.01f]
     },
     {
+        "path"     : "/sysefx[0,3]/Reverse/Pvolume",
+        "shortname": "amt",
+        "name"     : "Pvolume",
+        "tooltip"  : "amount of effect",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127]
+    },
+    {
+        "path"     : "/sysefx[0,3]/Reverse/Ppanning",
+        "shortname": "pan",
+        "name"     : "Ppanning",
+        "tooltip"  : "panning",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "64"
+
+    },
+    {
+        "path"     : "/sysefx[0,3]/Reverse/Pdelay",
+        "shortname": "delay",
+        "name"     : "Pdelay",
+        "tooltip"  : "Length of Reversed Segment",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "31"
+
+    },
+    {
+        "path"     : "/sysefx[0,3]/Reverse/Pstereo",
+        "shortname": "stereo",
+        "name"     : "Pstereo",
+        "tooltip"  : "Stereo",
+        "type"     : "t"
+    },
+    {
+        "path"     : "/sysefx[0,3]/Reverse/Pphase",
+        "shortname": "phase",
+        "name"     : "Pphase",
+        "tooltip"  : "Phase offset for Reversed Segment",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "64"
+
+    },
+    {
+        "path"     : "/sysefx[0,3]/Reverse/Pcrossfade",
+        "shortname": "fade",
+        "name"     : "Pcrossfade",
+        "tooltip"  : "Cross Fade Time between Reversed Segments 1/100s",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "16"
+
+    },
+    {
+        "path"     : "/sysefx[0,3]/Reverse/Psyncmode",
+        "shortname": "sync",
+        "name"     : "Psyncmode",
+        "tooltip"  : "Sync Mode",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "options"  : [
+        {
+            "id"     : 0,
+            "value"  : "AUTO"
+        },
+        {
+            "id"     : 1,
+            "value"  : "MIDI"
+        },
+        {
+            "id"     : 2,
+            "value"  : "HOST"
+        },
+        {
+            "id"     : 3,
+            "value"  : "NOTEON"
+        },
+        {
+            "id"     : 4,
+            "value"  : "NOTEONOFF"
+        }
+        ]
+    },
+    {
         "path"     : "/insefx[0,7]/preset",
         "name"     : "preset",
         "tooltip"  : "Effect Preset Selector",
@@ -14441,6 +14631,10 @@
         {
             "id"     : 9,
             "value"  : "Sympathetic"
+        },
+        {
+            "id"     : 10,
+            "value"  : "Reverse"
         }
         ]
     },
@@ -15906,6 +16100,97 @@
         "scale"    : "linear",
         "type"     : "f",
         "range"    : [27.50f,4186.01f]
+    },
+    {
+        "path"     : "/insefx[0,7]/Reverse/Pvolume",
+        "shortname": "amt",
+        "name"     : "Pvolume",
+        "tooltip"  : "amount of effect",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127]
+    },
+    {
+        "path"     : "/insefx[0,7]/Reverse/Ppanning",
+        "shortname": "pan",
+        "name"     : "Ppanning",
+        "tooltip"  : "panning",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "64"
+
+    },
+    {
+        "path"     : "/insefx[0,7]/Reverse/Pdelay",
+        "shortname": "delay",
+        "name"     : "Pdelay",
+        "tooltip"  : "Length of Reversed Segment",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "31"
+
+    },
+    {
+        "path"     : "/insefx[0,7]/Reverse/Pstereo",
+        "shortname": "stereo",
+        "name"     : "Pstereo",
+        "tooltip"  : "Stereo",
+        "type"     : "t"
+    },
+    {
+        "path"     : "/insefx[0,7]/Reverse/Pphase",
+        "shortname": "phase",
+        "name"     : "Pphase",
+        "tooltip"  : "Phase offset for Reversed Segment",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "64"
+
+    },
+    {
+        "path"     : "/insefx[0,7]/Reverse/Pcrossfade",
+        "shortname": "fade",
+        "name"     : "Pcrossfade",
+        "tooltip"  : "Cross Fade Time between Reversed Segments 1/100s",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "default"  : "16"
+
+    },
+    {
+        "path"     : "/insefx[0,7]/Reverse/Psyncmode",
+        "shortname": "sync",
+        "name"     : "Psyncmode",
+        "tooltip"  : "Sync Mode",
+        "scale"    : "linear",
+        "type"     : "i",
+        "range"    : [0,127],
+        "options"  : [
+        {
+            "id"     : 0,
+            "value"  : "AUTO"
+        },
+        {
+            "id"     : 1,
+            "value"  : "MIDI"
+        },
+        {
+            "id"     : 2,
+            "value"  : "HOST"
+        },
+        {
+            "id"     : 3,
+            "value"  : "NOTEON"
+        },
+        {
+            "id"     : 4,
+            "value"  : "NOTEONOFF"
+        }
+        ]
     },
     {
         "path"     : "/microtonal/Pinvertupdown",
