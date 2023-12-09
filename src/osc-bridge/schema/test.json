@@ -1367,6 +1367,18 @@
         {
             "id"     : 2,
             "value"  : "both"
+        },
+        {
+            "id"     : 3,
+            "value"  : "BWDN"
+        },
+        {
+            "id"     : 4,
+            "value"  : "FWDN"
+        },
+        {
+            "id"     : 5,
+            "value"  : "bothN"
         }
         ]
     },
@@ -5785,6 +5797,18 @@
         {
             "id"     : 2,
             "value"  : "both"
+        },
+        {
+            "id"     : 3,
+            "value"  : "BWDN"
+        },
+        {
+            "id"     : 4,
+            "value"  : "FWDN"
+        },
+        {
+            "id"     : 5,
+            "value"  : "bothN"
         }
         ]
     },
@@ -7840,6 +7864,18 @@
         {
             "id"     : 2,
             "value"  : "both"
+        },
+        {
+            "id"     : 3,
+            "value"  : "BWDN"
+        },
+        {
+            "id"     : 4,
+            "value"  : "FWDN"
+        },
+        {
+            "id"     : 5,
+            "value"  : "bothN"
         }
         ]
     },
@@ -8932,6 +8968,28 @@
 
     },
     {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/BandWidthEnvelope/Penvdt[0,39]",
+        "name"     : "Penvdt#40",
+        "tooltip"  : "Envelope Delay Times",
+        "type"     : "i"
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/BandWidthEnvelope/envdt[0,39]",
+        "name"     : "envdt#40",
+        "tooltip"  : "Envelope Delay Times (ms)",
+        "type"     : "f",
+        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/subpars/BandWidthEnvelope/Penvval[0,39]",
+        "name"     : "Penvval#40",
+        "tooltip"  : "Envelope Values",
+        "type"     : "i",
+        "default"  : "[64 64 ...]"
+
+    },
+    {
         "path"     : "/part[0,15]/kit[0,15]/subpars/GlobalFilterEnvelope/Pfreemode",
         "name"     : "Pfreemode",
         "tooltip"  : "Complex Envelope Definitions",
@@ -9394,6 +9452,18 @@
         {
             "id"     : 2,
             "value"  : "both"
+        },
+        {
+            "id"     : 3,
+            "value"  : "BWDN"
+        },
+        {
+            "id"     : 4,
+            "value"  : "FWDN"
+        },
+        {
+            "id"     : 5,
+            "value"  : "bothN"
         }
         ]
     },
@@ -9851,6 +9921,18 @@
         {
             "id"     : 2,
             "value"  : "both"
+        },
+        {
+            "id"     : 3,
+            "value"  : "BWDN"
+        },
+        {
+            "id"     : 4,
+            "value"  : "FWDN"
+        },
+        {
+            "id"     : 5,
+            "value"  : "bothN"
         }
         ]
     },
@@ -12318,6 +12400,18 @@
         {
             "id"     : 2,
             "value"  : "both"
+        },
+        {
+            "id"     : 3,
+            "value"  : "BWDN"
+        },
+        {
+            "id"     : 4,
+            "value"  : "FWDN"
+        },
+        {
+            "id"     : 5,
+            "value"  : "bothN"
         }
         ]
     },
@@ -14207,6 +14301,18 @@
         {
             "id"     : 2,
             "value"  : "both"
+        },
+        {
+            "id"     : 3,
+            "value"  : "BWDN"
+        },
+        {
+            "id"     : 4,
+            "value"  : "FWDN"
+        },
+        {
+            "id"     : 5,
+            "value"  : "bothN"
         }
         ]
     },
