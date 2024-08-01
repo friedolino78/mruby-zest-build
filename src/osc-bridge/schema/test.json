@@ -620,6 +620,7 @@
         "shortname": "a.dt",
         "name"     : "A_dt",
         "tooltip"  : "Attack Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -650,6 +651,7 @@
         "shortname": "d.dt",
         "name"     : "D_dt",
         "tooltip"  : "Decay Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -690,6 +692,7 @@
         "shortname": "r.dt",
         "name"     : "R_dt",
         "tooltip"  : "Release Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.009f],
@@ -796,6 +799,7 @@
         "shortname": "a.dt",
         "name"     : "A_dt",
         "tooltip"  : "Attack Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -826,6 +830,7 @@
         "shortname": "d.dt",
         "name"     : "D_dt",
         "tooltip"  : "Decay Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -866,6 +871,7 @@
         "shortname": "r.dt",
         "name"     : "R_dt",
         "tooltip"  : "Release Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.009f],
@@ -972,6 +978,7 @@
         "shortname": "a.dt",
         "name"     : "A_dt",
         "tooltip"  : "Attack Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -1002,6 +1009,7 @@
         "shortname": "d.dt",
         "name"     : "D_dt",
         "tooltip"  : "Decay Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -1042,6 +1050,7 @@
         "shortname": "r.dt",
         "name"     : "R_dt",
         "tooltip"  : "Release Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.009f],
@@ -2021,6 +2030,18 @@
         {
             "id"     : 17,
             "value"  : "Square"
+        },
+        {
+            "id"     : 18,
+            "value"  : "DualCos"
+        },
+        {
+            "id"     : 19,
+            "value"  : "Coerc"
+        },
+        {
+            "id"     : 20,
+            "value"  : "DualTanh"
         }
         ]
     },
@@ -3199,6 +3220,18 @@
         {
             "id"     : 17,
             "value"  : "Square"
+        },
+        {
+            "id"     : 18,
+            "value"  : "DualCos"
+        },
+        {
+            "id"     : 19,
+            "value"  : "Coerc"
+        },
+        {
+            "id"     : 20,
+            "value"  : "DualTanh"
         }
         ]
     },
@@ -3840,6 +3873,18 @@
         {
             "id"     : 17,
             "value"  : "Square"
+        },
+        {
+            "id"     : 18,
+            "value"  : "DualCos"
+        },
+        {
+            "id"     : 19,
+            "value"  : "Coerc"
+        },
+        {
+            "id"     : 20,
+            "value"  : "DualTanh"
         }
         ]
     },
@@ -4989,6 +5034,7 @@
         "shortname": "a.dt",
         "name"     : "A_dt",
         "tooltip"  : "Attack Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -5019,6 +5065,7 @@
         "shortname": "d.dt",
         "name"     : "D_dt",
         "tooltip"  : "Decay Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -5059,6 +5106,7 @@
         "shortname": "r.dt",
         "name"     : "R_dt",
         "tooltip"  : "Release Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.009f],
@@ -5165,6 +5213,7 @@
         "shortname": "a.dt",
         "name"     : "A_dt",
         "tooltip"  : "Attack Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -5195,6 +5244,7 @@
         "shortname": "d.dt",
         "name"     : "D_dt",
         "tooltip"  : "Decay Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -5235,6 +5285,7 @@
         "shortname": "r.dt",
         "name"     : "R_dt",
         "tooltip"  : "Release Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.009f],
@@ -5341,6 +5392,7 @@
         "shortname": "a.dt",
         "name"     : "A_dt",
         "tooltip"  : "Attack Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -5371,6 +5423,7 @@
         "shortname": "d.dt",
         "name"     : "D_dt",
         "tooltip"  : "Decay Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -5411,6 +5464,7 @@
         "shortname": "r.dt",
         "name"     : "R_dt",
         "tooltip"  : "Release Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.009f],
@@ -5517,6 +5571,7 @@
         "shortname": "a.dt",
         "name"     : "A_dt",
         "tooltip"  : "Attack Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -5547,6 +5602,7 @@
         "shortname": "d.dt",
         "name"     : "D_dt",
         "tooltip"  : "Decay Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -5587,6 +5643,7 @@
         "shortname": "r.dt",
         "name"     : "R_dt",
         "tooltip"  : "Release Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.009f],
@@ -5693,6 +5750,7 @@
         "shortname": "a.dt",
         "name"     : "A_dt",
         "tooltip"  : "Attack Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -5723,6 +5781,7 @@
         "shortname": "d.dt",
         "name"     : "D_dt",
         "tooltip"  : "Decay Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -5763,6 +5822,7 @@
         "shortname": "r.dt",
         "name"     : "R_dt",
         "tooltip"  : "Release Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.009f],
@@ -6601,15 +6661,19 @@
         },
         {
             "id"     : 3,
-            "value"  : "phase"
+            "value"  : "PM"
         },
         {
             "id"     : 4,
-            "value"  : "frequency"
+            "value"  : "FM"
         },
         {
             "id"     : 5,
-            "value"  : "pulse"
+            "value"  : "PWM"
+        },
+        {
+            "id"     : 6,
+            "value"  : "am"
         }
         ]
     },
@@ -6723,6 +6787,15 @@
         "shortname": "enable",
         "name"     : "PFMAmpEnvelopeEnabled",
         "tooltip"  : "Modulator Amplitude Envelope",
+        "type"     : "t",
+        "default"  : "false"
+
+    },
+    {
+        "path"     : "/part[0,15]/kit[0,15]/adpars/VoicePar[0,7]/PsyncEnabled",
+        "shortname": "sync",
+        "name"     : "PsyncEnabled",
+        "tooltip"  : "Oscillator Hard Sync",
         "type"     : "t",
         "default"  : "false"
 
@@ -7726,6 +7799,7 @@
         "shortname": "a.dt",
         "name"     : "A_dt",
         "tooltip"  : "Attack Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -7756,6 +7830,7 @@
         "shortname": "d.dt",
         "name"     : "D_dt",
         "tooltip"  : "Decay Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -7796,6 +7871,7 @@
         "shortname": "r.dt",
         "name"     : "R_dt",
         "tooltip"  : "Release Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.009f],
@@ -7902,6 +7978,7 @@
         "shortname": "a.dt",
         "name"     : "A_dt",
         "tooltip"  : "Attack Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -7932,6 +8009,7 @@
         "shortname": "d.dt",
         "name"     : "D_dt",
         "tooltip"  : "Decay Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -7972,6 +8050,7 @@
         "shortname": "r.dt",
         "name"     : "R_dt",
         "tooltip"  : "Release Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.009f],
@@ -8078,6 +8157,7 @@
         "shortname": "a.dt",
         "name"     : "A_dt",
         "tooltip"  : "Attack Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -8108,6 +8188,7 @@
         "shortname": "d.dt",
         "name"     : "D_dt",
         "tooltip"  : "Decay Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -8148,6 +8229,7 @@
         "shortname": "r.dt",
         "name"     : "R_dt",
         "tooltip"  : "Release Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.009f],
@@ -9116,6 +9198,7 @@
         "shortname": "a.dt",
         "name"     : "A_dt",
         "tooltip"  : "Attack Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -9146,6 +9229,7 @@
         "shortname": "d.dt",
         "name"     : "D_dt",
         "tooltip"  : "Decay Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -9186,6 +9270,7 @@
         "shortname": "r.dt",
         "name"     : "R_dt",
         "tooltip"  : "Release Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.009f],
@@ -9292,6 +9377,7 @@
         "shortname": "a.dt",
         "name"     : "A_dt",
         "tooltip"  : "Attack Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -9322,6 +9408,7 @@
         "shortname": "d.dt",
         "name"     : "D_dt",
         "tooltip"  : "Decay Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -9362,6 +9449,7 @@
         "shortname": "r.dt",
         "name"     : "R_dt",
         "tooltip"  : "Release Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.009f],
@@ -9468,6 +9556,7 @@
         "shortname": "a.dt",
         "name"     : "A_dt",
         "tooltip"  : "Attack Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -9498,6 +9587,7 @@
         "shortname": "d.dt",
         "name"     : "D_dt",
         "tooltip"  : "Decay Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -9538,6 +9628,7 @@
         "shortname": "r.dt",
         "name"     : "R_dt",
         "tooltip"  : "Release Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.009f],
@@ -9552,28 +9643,6 @@
         "type"     : "i",
         "range"    : [0,127],
         "default"  : "64"
-
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/subpars/BandWidthEnvelope/Penvdt[0,39]",
-        "name"     : "Penvdt#40",
-        "tooltip"  : "Envelope Delay Times",
-        "type"     : "i"
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/subpars/BandWidthEnvelope/envdt[0,39]",
-        "name"     : "envdt#40",
-        "tooltip"  : "Envelope Delay Times (ms)",
-        "type"     : "f",
-        "default"  : "[0.0 0.07 (0x1.242124p-4) 0.07 (0x1.242124p-4) ...]"
-
-    },
-    {
-        "path"     : "/part[0,15]/kit[0,15]/subpars/BandWidthEnvelope/Penvval[0,39]",
-        "name"     : "Penvval#40",
-        "tooltip"  : "Envelope Values",
-        "type"     : "i",
-        "default"  : "[64 64 ...]"
 
     },
     {
@@ -9666,6 +9735,7 @@
         "shortname": "a.dt",
         "name"     : "A_dt",
         "tooltip"  : "Attack Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -9696,6 +9766,7 @@
         "shortname": "d.dt",
         "name"     : "D_dt",
         "tooltip"  : "Decay Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.0001f],
@@ -9736,6 +9807,7 @@
         "shortname": "r.dt",
         "name"     : "R_dt",
         "tooltip"  : "Release Time",
+        "units"    : "s",
         "scale"    : "logarithmic",
         "type"     : "f",
         "range"    : [0.f,41.0f,0.009f],
@@ -10869,6 +10941,14 @@
         {
             "id"     : 9,
             "value"  : "Flange5"
+        },
+        {
+            "id"     : 10,
+            "value"  : "Triple"
+        },
+        {
+            "id"     : 11,
+            "value"  : "Dual"
         }
         ]
     },
@@ -10980,12 +11060,30 @@
     },
     {
         "path"     : "/part[0,15]/partefx[0,2]/Chorus/Pflangemode",
-        "shortname": "flange",
+        "shortname": "mode",
         "name"     : "Pflangemode",
-        "tooltip"  : "Flange Mode",
-        "type"     : "t",
-        "default"  : "false"
-
+        "tooltip"  : "Chorus Mode",
+        "type"     : "i",
+        "default"  : "CHORUS"
+,
+        "options"  : [
+        {
+            "id"     : 0,
+            "value"  : "CHORUS"
+        },
+        {
+            "id"     : 1,
+            "value"  : "FLANGE"
+        },
+        {
+            "id"     : 2,
+            "value"  : "TRIPLE"
+        },
+        {
+            "id"     : 3,
+            "value"  : "DUAL"
+        }
+        ]
     },
     {
         "path"     : "/part[0,15]/partefx[0,2]/Chorus/Poutsub",
@@ -11155,6 +11253,18 @@
         {
             "id"     : 16,
             "value"  : "Square"
+        },
+        {
+            "id"     : 17,
+            "value"  : "DualCos"
+        },
+        {
+            "id"     : 18,
+            "value"  : "Coerc"
+        },
+        {
+            "id"     : 19,
+            "value"  : "DualTanh"
         }
         ]
     },
@@ -12806,6 +12916,10 @@
         {
             "id"     : 3,
             "value"  : "Latch"
+        },
+        {
+            "id"     : 4,
+            "value"  : "Bend"
         }
         ]
     },
@@ -13443,6 +13557,14 @@
         {
             "id"     : 9,
             "value"  : "Flange5"
+        },
+        {
+            "id"     : 10,
+            "value"  : "Triple"
+        },
+        {
+            "id"     : 11,
+            "value"  : "Dual"
         }
         ]
     },
@@ -13554,12 +13676,30 @@
     },
     {
         "path"     : "/sysefx[0,3]/Chorus/Pflangemode",
-        "shortname": "flange",
+        "shortname": "mode",
         "name"     : "Pflangemode",
-        "tooltip"  : "Flange Mode",
-        "type"     : "t",
-        "default"  : "false"
-
+        "tooltip"  : "Chorus Mode",
+        "type"     : "i",
+        "default"  : "CHORUS"
+,
+        "options"  : [
+        {
+            "id"     : 0,
+            "value"  : "CHORUS"
+        },
+        {
+            "id"     : 1,
+            "value"  : "FLANGE"
+        },
+        {
+            "id"     : 2,
+            "value"  : "TRIPLE"
+        },
+        {
+            "id"     : 3,
+            "value"  : "DUAL"
+        }
+        ]
     },
     {
         "path"     : "/sysefx[0,3]/Chorus/Poutsub",
@@ -13729,6 +13869,18 @@
         {
             "id"     : 16,
             "value"  : "Square"
+        },
+        {
+            "id"     : 17,
+            "value"  : "DualCos"
+        },
+        {
+            "id"     : 18,
+            "value"  : "Coerc"
+        },
+        {
+            "id"     : 19,
+            "value"  : "DualTanh"
         }
         ]
     },
@@ -14715,14 +14867,14 @@
         "range"    : [27.50f,4186.01f]
     },
     {
-        "path"     : "/insefx[0,7]/preset",
-        "name"     : "preset",
-        "tooltip"  : "Effect Preset Selector",
+        "path"     : "/sysefx[0,3]/Reverse/Pvolume",
+        "shortname": "amt",
+        "name"     : "Pvolume",
+        "tooltip"  : "amount of effect",
+        "scale"    : "linear",
         "type"     : "i",
-        "default"  : "0"
-
+        "range"    : [0,127]
     },
-    {
     {
         "path"     : "/sysefx[0,3]/Reverse/Ppanning",
         "shortname": "pan",
@@ -15439,6 +15591,14 @@
         {
             "id"     : 9,
             "value"  : "Flange5"
+        },
+        {
+            "id"     : 10,
+            "value"  : "Triple"
+        },
+        {
+            "id"     : 11,
+            "value"  : "Dual"
         }
         ]
     },
@@ -15550,12 +15710,30 @@
     },
     {
         "path"     : "/insefx[0,7]/Chorus/Pflangemode",
-        "shortname": "flange",
+        "shortname": "mode",
         "name"     : "Pflangemode",
-        "tooltip"  : "Flange Mode",
-        "type"     : "t",
-        "default"  : "false"
-
+        "tooltip"  : "Chorus Mode",
+        "type"     : "i",
+        "default"  : "CHORUS"
+,
+        "options"  : [
+        {
+            "id"     : 0,
+            "value"  : "CHORUS"
+        },
+        {
+            "id"     : 1,
+            "value"  : "FLANGE"
+        },
+        {
+            "id"     : 2,
+            "value"  : "TRIPLE"
+        },
+        {
+            "id"     : 3,
+            "value"  : "DUAL"
+        }
+        ]
     },
     {
         "path"     : "/insefx[0,7]/Chorus/Poutsub",
@@ -15725,6 +15903,18 @@
         {
             "id"     : 16,
             "value"  : "Square"
+        },
+        {
+            "id"     : 17,
+            "value"  : "DualCos"
+        },
+        {
+            "id"     : 18,
+            "value"  : "Coerc"
+        },
+        {
+            "id"     : 19,
+            "value"  : "DualTanh"
         }
         ]
     },
