@@ -12680,10 +12680,12 @@
         "path"     : "/part[0,15]/Pkeyshift",
         "shortname": "shift",
         "name"     : "Pkeyshift",
-        "tooltip"  : "Part keyshift",
+        "tooltip"  : "Part Key Shift",
+        "units"    : "semitones",
+        "scale"    : "linear",
         "type"     : "i",
-        "range"    : [0,127],
-        "default"  : "64"
+        "range"    : [-64,63],
+        "default"  : "0"
 
     },
     {
@@ -17471,10 +17473,11 @@
         "shortname": "key shift",
         "name"     : "Pkeyshift",
         "tooltip"  : "Global Key Shift",
+        "units"    : "semitones",
         "scale"    : "linear",
         "type"     : "i",
-        "range"    : [0,127],
-        "default"  : "64"
+        "range"    : [-64,63],
+        "default"  : "0"
 
     },
     {
