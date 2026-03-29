@@ -229,11 +229,12 @@ Widget {
         end
         n = [x.length/stride, children.length-1].min
         (1..n).each do |i|
-            nv = (children[i].label == self.value_lab &&
-                  children[i].tooltip == self.value_sel)
-            children[i].label   = x[(i-1+offset)*stride]
-            children[i].tooltip = x[(i-1+offset)*stride+1] if stride == 2
-            children[i].value   = nv
+            new_label = x[(i-1+offset)*stride]
+            new_tip = x[(i-1+offset)*stride+1] if stride == 2
+
+            children[i].label   = new_label
+            children[i].tooltip = new_tip
+            children[i].value   = (new_label == self.value_lab && new_tip == self.value_sel)
         end
         ((n+1)...children.length).each do |i|
             children[i].label   = ""
