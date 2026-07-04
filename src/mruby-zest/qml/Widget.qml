@@ -150,9 +150,9 @@ Object {
             widget.y
         end
     }
-    
+
     function onMouseEnter(ev) {
-        if(self.tooltip != "" and self.root.respond_to?(:log))
+        if(self.tooltip != "" and self.tooltip != nil and self.root.respond_to?(:log))
             self.root.log(:tooltip, self.parent.childTooltipPrefix + self.tooltip)
         end
     }
