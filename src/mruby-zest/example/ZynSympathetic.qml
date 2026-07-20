@@ -45,11 +45,21 @@ Widget {
     }
 
     ParModuleRow {
+ParModuleRow {
         id: contactRow
         layoutOpts: []
         HSlider { extern: sym.extern + "Sympathetic/PcontactDist"; label: "contact"}
         HSlider { extern: sym.extern + "Sympathetic/PcontactStrength"; label: "strength"}
         HSlider { extern: sym.extern + "Sympathetic/PcontactPos"; label: "cpos"}
+    }
+
+    ParModuleRow {
+        id: inharmonicityRow
+        layoutOpts: []
+        HSlider { extern: sym.extern + "Sympathetic/Pinharmonicity"; label: "inharmonicity"}
+        HSlider { extern: sym.extern + "Sympathetic/Pbeta"; label: "beta"}
+        HSlider { extern: sym.extern + "Sympathetic/Pgamma"; label: "gamma"}
+    }
     }
 
     function draw(vg) {
